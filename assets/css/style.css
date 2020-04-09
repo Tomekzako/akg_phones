@@ -1,0 +1,3730 @@
+/* FONTS : Custom Samsung font. */
+@font-face {
+  font-family: 'SamsungSharpSans-Bold';
+  src: url("../fonts/SamsungSharpSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/SamsungSharpSans-Bold.otf") format("opentype"), url("../fonts/SamsungSharpSans-Bold.woff") format("woff"), url("../fonts/SamsungSharpSans-Bold.ttf") format("truetype"), url("../fonts/SamsungSharpSans-Bold.svg#SamsungSharpSans-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SamsungSharpSans-Medium';
+  src: url("../fonts/SamsungSharpSans-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/SamsungSharpSans-Medium.otf") format("opentype"), url("../fonts/SamsungSharpSans-Medium.woff") format("woff"), url("../fonts/SamsungSharpSans-Medium.ttf") format("truetype"), url("../fonts/SamsungSharpSans-Medium.svg#SamsungSharpSans-Medium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SamsungOne-700';
+  src: url("../fonts/SamsungOne-700.eot?#iefix") format("embedded-opentype"), url("../fonts/SamsungOne-700.woff") format("woff"), url("../fonts/SamsungOne-700.ttf") format("truetype"), url("../fonts/SamsungOne-700.svg#SamsungOne-400") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SamsungOne-400';
+  src: url("../fonts/SamsungOne-400.eot?#iefix") format("embedded-opentype"), url("../fonts/SamsungOne-400.woff") format("woff"), url("../fonts/SamsungOne-400.ttf") format("truetype"), url("../fonts/SamsungOne-400.svg#SamsungOne-400") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+#samsung_m_00 #samsung_m_01 {
+  background: #fff;
+  font-family: "SamsungOne-400"; }
+
+#samsung_m_00 #samsung_m_01 {
+  /*!
+ * Bootstrap v4.2.1 (https://getbootstrap.com/)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+  /* button {
+      border-radius: 0
+    }
+
+    button:focus {
+      outline: 1px dotted;
+      outline: 5px auto -webkit-focus-ring-color
+    }
+
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+      margin: 0;
+      font-family: inherit;
+      font-size: inherit;
+      line-height: inherit
+    }
+
+    button,
+    input {
+      overflow: visible
+    }
+
+    button,
+    select {
+      text-transform: none
+    }
+
+    [type=button],
+    [type=reset],
+    [type=submit],
+    button {
+      -webkit-appearance: button
+    }
+
+    [type=button]::-moz-focus-inner,
+    [type=reset]::-moz-focus-inner,
+    [type=submit]::-moz-focus-inner,
+    button::-moz-focus-inner {
+      padding: 0;
+      border-style: none
+    }
+
+    input[type=checkbox],
+    input[type=radio] {
+      box-sizing: border-box;
+      padding: 0
+    }
+
+    input[type=date],
+    input[type=datetime-local],
+    input[type=month],
+    input[type=time] {
+      -webkit-appearance: listbox
+    }
+
+    textarea {
+      overflow: auto;
+      resize: vertical
+    }
+
+    fieldset {
+      min-width: 0;
+      padding: 0;
+      margin: 0;
+      border: 0
+    }
+
+    legend {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      padding: 0;
+      margin-bottom: .5rem;
+      font-size: 1.5rem;
+      line-height: inherit;
+      color: inherit;
+      white-space: normal
+    }
+
+    progress {
+      vertical-align: baseline
+    } */
+  /*# sourceMappingURL=bootstrap.min.css.map */
+  /*.sam_row {
+    width: 100%;
+}*/
+  /* slick */ }
+  #samsung_m_00 #samsung_m_01 *,
+  #samsung_m_00 #samsung_m_01 ::after,
+  #samsung_m_00 #samsung_m_01 ::before {
+    box-sizing: border-box; }
+  #samsung_m_00 #samsung_m_01 html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent; }
+  #samsung_m_00 #samsung_m_01 article,
+  #samsung_m_00 #samsung_m_01 aside,
+  #samsung_m_00 #samsung_m_01 figcaption,
+  #samsung_m_00 #samsung_m_01 figure,
+  #samsung_m_00 #samsung_m_01 footer,
+  #samsung_m_00 #samsung_m_01 header,
+  #samsung_m_00 #samsung_m_01 hgroup,
+  #samsung_m_00 #samsung_m_01 main,
+  #samsung_m_00 #samsung_m_01 nav,
+  #samsung_m_00 #samsung_m_01 section {
+    display: block; }
+  #samsung_m_00 #samsung_m_01 body {
+    margin: 0; }
+  #samsung_m_00 #samsung_m_01 [tabindex="-1"]:focus {
+    outline: 0 !important; }
+  #samsung_m_00 #samsung_m_01 hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible; }
+  #samsung_m_00 #samsung_m_01 h1,
+  #samsung_m_00 #samsung_m_01 h2,
+  #samsung_m_00 #samsung_m_01 h3,
+  #samsung_m_00 #samsung_m_01 h4,
+  #samsung_m_00 #samsung_m_01 h5,
+  #samsung_m_00 #samsung_m_01 h6 {
+    margin-top: 0;
+    margin-bottom: .5rem; }
+  #samsung_m_00 #samsung_m_01 p {
+    margin-top: 0;
+    margin-bottom: 1rem; }
+  #samsung_m_00 #samsung_m_01 abbr[data-original-title],
+  #samsung_m_00 #samsung_m_01 abbr[title] {
+    text-decoration: underline;
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted;
+    cursor: help;
+    border-bottom: 0;
+    text-decoration-skip-ink: none; }
+  #samsung_m_00 #samsung_m_01 address {
+    margin-bottom: 1rem;
+    font-style: normal;
+    line-height: inherit; }
+  #samsung_m_00 #samsung_m_01 dl,
+  #samsung_m_00 #samsung_m_01 ol,
+  #samsung_m_00 #samsung_m_01 ul {
+    margin-top: 0;
+    margin-bottom: 1rem; }
+  #samsung_m_00 #samsung_m_01 ol ol,
+  #samsung_m_00 #samsung_m_01 ol ul,
+  #samsung_m_00 #samsung_m_01 ul ol,
+  #samsung_m_00 #samsung_m_01 ul ul {
+    margin-bottom: 0; }
+  #samsung_m_00 #samsung_m_01 dt {
+    font-weight: 700; }
+  #samsung_m_00 #samsung_m_01 dd {
+    margin-bottom: .5rem;
+    margin-left: 0; }
+  #samsung_m_00 #samsung_m_01 blockquote {
+    margin: 0 0 1rem; }
+  #samsung_m_00 #samsung_m_01 b,
+  #samsung_m_00 #samsung_m_01 strong {
+    font-weight: bolder; }
+  #samsung_m_00 #samsung_m_01 small {
+    font-size: 80%; }
+  #samsung_m_00 #samsung_m_01 sub,
+  #samsung_m_00 #samsung_m_01 sup {
+    position: relative;
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline; }
+  #samsung_m_00 #samsung_m_01 sub {
+    bottom: -.25em; }
+  #samsung_m_00 #samsung_m_01 sup {
+    top: -.5em; }
+  #samsung_m_00 #samsung_m_01 a {
+    text-decoration: none;
+    background-color: transparent; }
+  #samsung_m_00 #samsung_m_01 a:hover {
+    text-decoration: underline; }
+  #samsung_m_00 #samsung_m_01 a:active,
+  #samsung_m_00 #samsung_m_01 a:hover {
+    outline: 0; }
+  #samsung_m_00 #samsung_m_01 code,
+  #samsung_m_00 #samsung_m_01 kbd,
+  #samsung_m_00 #samsung_m_01 pre,
+  #samsung_m_00 #samsung_m_01 samp {
+    font-family: monospace;
+    font-size: 1em; }
+  #samsung_m_00 #samsung_m_01 pre {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    overflow: auto; }
+  #samsung_m_00 #samsung_m_01 figure {
+    margin: 0 0 1rem; }
+  #samsung_m_00 #samsung_m_01 img {
+    vertical-align: middle;
+    border-style: none; }
+  #samsung_m_00 #samsung_m_01 svg {
+    overflow: hidden;
+    vertical-align: middle; }
+  #samsung_m_00 #samsung_m_01 table {
+    border-collapse: collapse; }
+  #samsung_m_00 #samsung_m_01 caption {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    color: #6c757d;
+    text-align: left;
+    caption-side: bottom; }
+  #samsung_m_00 #samsung_m_01 th {
+    text-align: inherit; }
+  #samsung_m_00 #samsung_m_01 label {
+    display: inline-block;
+    margin-bottom: .5rem; }
+  #samsung_m_00 #samsung_m_01 [type=number]::-webkit-inner-spin-button,
+  #samsung_m_00 #samsung_m_01 [type=number]::-webkit-outer-spin-button {
+    height: auto; }
+  #samsung_m_00 #samsung_m_01 [type=search] {
+    outline-offset: -2px;
+    -webkit-appearance: none; }
+  #samsung_m_00 #samsung_m_01 [type=search]::-webkit-search-decoration {
+    -webkit-appearance: none; }
+  #samsung_m_00 #samsung_m_01 ::-webkit-file-upload-button {
+    font: inherit;
+    -webkit-appearance: button; }
+  #samsung_m_00 #samsung_m_01 output {
+    display: inline-block; }
+  #samsung_m_00 #samsung_m_01 summary {
+    display: list-item;
+    cursor: pointer; }
+  #samsung_m_00 #samsung_m_01 template {
+    display: none; }
+  #samsung_m_00 #samsung_m_01 [hidden] {
+    display: none !important; }
+  #samsung_m_00 #samsung_m_01 .sam_h1,
+  #samsung_m_00 #samsung_m_01 .sam_h2,
+  #samsung_m_00 #samsung_m_01 .sam_h3,
+  #samsung_m_00 #samsung_m_01 .sam_h4,
+  #samsung_m_00 #samsung_m_01 .sam_h5,
+  #samsung_m_00 #samsung_m_01 .sam_h6,
+  #samsung_m_00 #samsung_m_01 h1,
+  #samsung_m_00 #samsung_m_01 h2,
+  #samsung_m_00 #samsung_m_01 h3,
+  #samsung_m_00 #samsung_m_01 h4,
+  #samsung_m_00 #samsung_m_01 h5,
+  #samsung_m_00 #samsung_m_01 h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit; }
+  #samsung_m_00 #samsung_m_01 .sam_h1,
+  #samsung_m_00 #samsung_m_01 h1 {
+    font-size: 2.5rem; }
+  #samsung_m_00 #samsung_m_01 .sam_h2,
+  #samsung_m_00 #samsung_m_01 h2 {
+    font-size: 2rem; }
+  #samsung_m_00 #samsung_m_01 .sam_h3,
+  #samsung_m_00 #samsung_m_01 h3 {
+    font-size: 1.75rem; }
+  #samsung_m_00 #samsung_m_01 .sam_h4,
+  #samsung_m_00 #samsung_m_01 h4 {
+    font-size: 1.5rem; }
+  #samsung_m_00 #samsung_m_01 .sam_h5,
+  #samsung_m_00 #samsung_m_01 h5 {
+    font-size: 1.25rem; }
+  #samsung_m_00 #samsung_m_01 .sam_h6,
+  #samsung_m_00 #samsung_m_01 h6 {
+    font-size: 1rem; }
+  #samsung_m_00 #samsung_m_01 .sam_lead {
+    font-size: 1.25rem;
+    font-weight: 300; }
+  #samsung_m_00 #samsung_m_01 .sam_display-1 {
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1.2; }
+  #samsung_m_00 #samsung_m_01 .sam_display-2 {
+    font-size: 5.5rem;
+    font-weight: 300;
+    line-height: 1.2; }
+  #samsung_m_00 #samsung_m_01 .sam_display-3 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2; }
+  #samsung_m_00 #samsung_m_01 .sam_display-4 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2; }
+  #samsung_m_00 #samsung_m_01 hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1); }
+  #samsung_m_00 #samsung_m_01 .sam_small,
+  #samsung_m_00 #samsung_m_01 small {
+    font-size: 80%;
+    font-weight: 400; }
+  #samsung_m_00 #samsung_m_01 .sam_mark,
+  #samsung_m_00 #samsung_m_01 mark {
+    padding: .2em;
+    background-color: #fcf8e3; }
+  #samsung_m_00 #samsung_m_01 .sam_list-unstyled {
+    padding-left: 0;
+    list-style: none; }
+  #samsung_m_00 #samsung_m_01 .sam_list-inline {
+    padding-left: 0;
+    list-style: none; }
+  #samsung_m_00 #samsung_m_01 .sam_list-inline-item {
+    display: inline-block; }
+  #samsung_m_00 #samsung_m_01 .sam_list-inline-item:not(:last-child) {
+    margin-right: .5rem; }
+  #samsung_m_00 #samsung_m_01 .sam_initialism {
+    font-size: 90%;
+    text-transform: uppercase; }
+  #samsung_m_00 #samsung_m_01 .sam_blockquote {
+    margin-bottom: 1rem;
+    font-size: 1.25rem; }
+  #samsung_m_00 #samsung_m_01 .sam_blockquote-footer {
+    display: block;
+    font-size: 80%;
+    color: #6c757d; }
+  #samsung_m_00 #samsung_m_01 .sam_blockquote-footer::before {
+    content: "\2014\00A0"; }
+  #samsung_m_00 #samsung_m_01 .sam_img-fluid {
+    max-width: 100%;
+    height: auto; }
+  #samsung_m_00 #samsung_m_01 .sam_img-thumbnail {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto; }
+  #samsung_m_00 #samsung_m_01 .sam_figure {
+    display: inline-block; }
+  #samsung_m_00 #samsung_m_01 .sam_figure-img {
+    margin-bottom: .5rem;
+    line-height: 1; }
+  #samsung_m_00 #samsung_m_01 .sam_figure-caption {
+    font-size: 90%;
+    color: #6c757d; }
+  #samsung_m_00 #samsung_m_01 code {
+    font-size: 87.5%;
+    color: #e83e8c;
+    word-break: break-word; }
+  #samsung_m_00 #samsung_m_01 a > code {
+    color: inherit; }
+  #samsung_m_00 #samsung_m_01 kbd {
+    padding: .2rem .4rem;
+    font-size: 87.5%;
+    color: #fff;
+    background-color: #212529;
+    border-radius: .2rem; }
+  #samsung_m_00 #samsung_m_01 kbd kbd {
+    padding: 0;
+    font-size: 100%;
+    font-weight: 700; }
+  #samsung_m_00 #samsung_m_01 pre {
+    display: block;
+    font-size: 87.5%;
+    color: #212529; }
+  #samsung_m_00 #samsung_m_01 pre code {
+    font-size: inherit;
+    color: inherit;
+    word-break: normal; }
+  #samsung_m_00 #samsung_m_01 .sam_pre-scrollable {
+    max-height: 340px;
+    overflow-y: scroll; }
+  #samsung_m_00 #samsung_m_01 .sam_container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+  @media (min-width: 480px) {
+    #samsung_m_00 #samsung_m_01 .sam_container {
+      max-width: 540px; } }
+  @media (min-width: 800px) {
+    #samsung_m_00 #samsung_m_01 .sam_container {
+      max-width: 720px; } }
+  @media (min-width: 960px) {
+    #samsung_m_00 #samsung_m_01 .sam_container {
+      max-width: 1140px; } }
+  #samsung_m_00 #samsung_m_01 .sam_container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+  #samsung_m_00 #samsung_m_01 .sam_row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px; }
+  #samsung_m_00 #samsung_m_01 .sam_no-gutters {
+    margin-right: 0;
+    margin-left: 0; }
+  #samsung_m_00 #samsung_m_01 .sam_no-gutters > .col,
+  #samsung_m_00 #samsung_m_01 .sam_no-gutters > [class*=col-] {
+    padding-right: 0;
+    padding-left: 0; }
+  #samsung_m_00 #samsung_m_01 .sam_col,
+  #samsung_m_00 #samsung_m_01 .sam_col-1,
+  #samsung_m_00 #samsung_m_01 .sam_col-10,
+  #samsung_m_00 #samsung_m_01 .sam_col-11,
+  #samsung_m_00 #samsung_m_01 .sam_col-12,
+  #samsung_m_00 #samsung_m_01 .sam_col-2,
+  #samsung_m_00 #samsung_m_01 .sam_col-3,
+  #samsung_m_00 #samsung_m_01 .sam_col-4,
+  #samsung_m_00 #samsung_m_01 .sam_col-5,
+  #samsung_m_00 #samsung_m_01 .sam_col-6,
+  #samsung_m_00 #samsung_m_01 .sam_col-7,
+  #samsung_m_00 #samsung_m_01 .sam_col-8,
+  #samsung_m_00 #samsung_m_01 .sam_col-9,
+  #samsung_m_00 #samsung_m_01 .sam_col-auto,
+  #samsung_m_00 #samsung_m_01 .sam_col-lg,
+  #samsung_m_00 #samsung_m_01 .sam_col-lg-1,
+  #samsung_m_00 #samsung_m_01 .sam_col-lg-10,
+  #samsung_m_00 #samsung_m_01 .sam_col-lg-11,
+  #samsung_m_00 #samsung_m_01 .sam_col-lg-12,
+  #samsung_m_00 #samsung_m_01 .sam_col-lg-2,
+  #samsung_m_00 #samsung_m_01 .sam_col-lg-3,
+  #samsung_m_00 #samsung_m_01 .sam_col-lg-4,
+  #samsung_m_00 #samsung_m_01 .sam_col-lg-5,
+  #samsung_m_00 #samsung_m_01 .sam_col-lg-6,
+  #samsung_m_00 #samsung_m_01 .sam_col-lg-7,
+  #samsung_m_00 #samsung_m_01 .sam_col-lg-8,
+  #samsung_m_00 #samsung_m_01 .sam_col-lg-9,
+  #samsung_m_00 #samsung_m_01 .sam_col-lg-auto,
+  #samsung_m_00 #samsung_m_01 .sam_col-md,
+  #samsung_m_00 #samsung_m_01 .sam_col-md-1,
+  #samsung_m_00 #samsung_m_01 .sam_col-md-10,
+  #samsung_m_00 #samsung_m_01 .sam_col-md-11,
+  #samsung_m_00 #samsung_m_01 .sam_col-md-12,
+  #samsung_m_00 #samsung_m_01 .sam_col-md-2,
+  #samsung_m_00 #samsung_m_01 .sam_col-md-3,
+  #samsung_m_00 #samsung_m_01 .sam_col-md-4,
+  #samsung_m_00 #samsung_m_01 .sam_col-md-5,
+  #samsung_m_00 #samsung_m_01 .sam_col-md-6,
+  #samsung_m_00 #samsung_m_01 .sam_col-md-7,
+  #samsung_m_00 #samsung_m_01 .sam_col-md-8,
+  #samsung_m_00 #samsung_m_01 .sam_col-md-9,
+  #samsung_m_00 #samsung_m_01 .sam_col-md-auto,
+  #samsung_m_00 #samsung_m_01 .sam_col-sm,
+  #samsung_m_00 #samsung_m_01 .sam_col-sm-1,
+  #samsung_m_00 #samsung_m_01 .sam_col-sm-10,
+  #samsung_m_00 #samsung_m_01 .sam_col-sm-11,
+  #samsung_m_00 #samsung_m_01 .sam_col-sm-12,
+  #samsung_m_00 #samsung_m_01 .sam_col-sm-2,
+  #samsung_m_00 #samsung_m_01 .sam_col-sm-3,
+  #samsung_m_00 #samsung_m_01 .sam_col-sm-4,
+  #samsung_m_00 #samsung_m_01 .sam_col-sm-5,
+  #samsung_m_00 #samsung_m_01 .sam_col-sm-6,
+  #samsung_m_00 #samsung_m_01 .sam_col-sm-7,
+  #samsung_m_00 #samsung_m_01 .sam_col-sm-8,
+  #samsung_m_00 #samsung_m_01 .sam_col-sm-9,
+  #samsung_m_00 #samsung_m_01 .sam_col-sm-auto,
+  #samsung_m_00 #samsung_m_01 .sam_col-xs,
+  #samsung_m_00 #samsung_m_01 .sam_col-xs-1,
+  #samsung_m_00 #samsung_m_01 .sam_col-xs-10,
+  #samsung_m_00 #samsung_m_01 .sam_col-xs-11,
+  #samsung_m_00 #samsung_m_01 .sam_col-xs-12,
+  #samsung_m_00 #samsung_m_01 .sam_col-xs-2,
+  #samsung_m_00 #samsung_m_01 .sam_col-xs-3,
+  #samsung_m_00 #samsung_m_01 .sam_col-xs-4,
+  #samsung_m_00 #samsung_m_01 .sam_col-xs-5,
+  #samsung_m_00 #samsung_m_01 .sam_col-xs-6,
+  #samsung_m_00 #samsung_m_01 .sam_col-xs-7,
+  #samsung_m_00 #samsung_m_01 .sam_col-xs-8,
+  #samsung_m_00 #samsung_m_01 .sam_col-xs-9,
+  #samsung_m_00 #samsung_m_01 .sam_col-xs-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px; }
+  #samsung_m_00 #samsung_m_01 .sam_col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%; }
+  #samsung_m_00 #samsung_m_01 .sam_col-auto {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%; }
+  #samsung_m_00 #samsung_m_01 .sam_col-1 {
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%; }
+  #samsung_m_00 #samsung_m_01 .sam_col-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%; }
+  #samsung_m_00 #samsung_m_01 .sam_col-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%; }
+  #samsung_m_00 #samsung_m_01 .sam_col-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%; }
+  #samsung_m_00 #samsung_m_01 .sam_col-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%; }
+  #samsung_m_00 #samsung_m_01 .sam_col-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%; }
+  #samsung_m_00 #samsung_m_01 .sam_col-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%; }
+  #samsung_m_00 #samsung_m_01 .sam_col-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%; }
+  #samsung_m_00 #samsung_m_01 .sam_col-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%; }
+  #samsung_m_00 #samsung_m_01 .sam_col-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%; }
+  #samsung_m_00 #samsung_m_01 .sam_col-11 {
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%; }
+  #samsung_m_00 #samsung_m_01 .sam_col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%; }
+  #samsung_m_00 #samsung_m_01 .sam_order-first {
+    -ms-flex-order: -1;
+    order: -1; }
+  #samsung_m_00 #samsung_m_01 .sam_order-last {
+    -ms-flex-order: 13;
+    order: 13; }
+  #samsung_m_00 #samsung_m_01 .sam_order-0 {
+    -ms-flex-order: 0;
+    order: 0; }
+  #samsung_m_00 #samsung_m_01 .sam_order-1 {
+    -ms-flex-order: 1;
+    order: 1; }
+  #samsung_m_00 #samsung_m_01 .sam_order-2 {
+    -ms-flex-order: 2;
+    order: 2; }
+  #samsung_m_00 #samsung_m_01 .sam_order-3 {
+    -ms-flex-order: 3;
+    order: 3; }
+  #samsung_m_00 #samsung_m_01 .sam_order-4 {
+    -ms-flex-order: 4;
+    order: 4; }
+  #samsung_m_00 #samsung_m_01 .sam_order-5 {
+    -ms-flex-order: 5;
+    order: 5; }
+  #samsung_m_00 #samsung_m_01 .sam_order-6 {
+    -ms-flex-order: 6;
+    order: 6; }
+  #samsung_m_00 #samsung_m_01 .sam_order-7 {
+    -ms-flex-order: 7;
+    order: 7; }
+  #samsung_m_00 #samsung_m_01 .sam_order-8 {
+    -ms-flex-order: 8;
+    order: 8; }
+  #samsung_m_00 #samsung_m_01 .sam_order-9 {
+    -ms-flex-order: 9;
+    order: 9; }
+  #samsung_m_00 #samsung_m_01 .sam_order-10 {
+    -ms-flex-order: 10;
+    order: 10; }
+  #samsung_m_00 #samsung_m_01 .sam_order-11 {
+    -ms-flex-order: 11;
+    order: 11; }
+  #samsung_m_00 #samsung_m_01 .sam_order-12 {
+    -ms-flex-order: 12;
+    order: 12; }
+  #samsung_m_00 #samsung_m_01 .sam_offset-1 {
+    margin-left: 8.333333%; }
+  #samsung_m_00 #samsung_m_01 .sam_offset-2 {
+    margin-left: 16.666667%; }
+  #samsung_m_00 #samsung_m_01 .sam_offset-3 {
+    margin-left: 25%; }
+  #samsung_m_00 #samsung_m_01 .sam_offset-4 {
+    margin-left: 33.333333%; }
+  #samsung_m_00 #samsung_m_01 .sam_offset-5 {
+    margin-left: 41.666667%; }
+  #samsung_m_00 #samsung_m_01 .sam_offset-6 {
+    margin-left: 50%; }
+  #samsung_m_00 #samsung_m_01 .sam_offset-7 {
+    margin-left: 58.333333%; }
+  #samsung_m_00 #samsung_m_01 .sam_offset-8 {
+    margin-left: 66.666667%; }
+  #samsung_m_00 #samsung_m_01 .sam_offset-9 {
+    margin-left: 75%; }
+  #samsung_m_00 #samsung_m_01 .sam_offset-10 {
+    margin-left: 83.333333%; }
+  #samsung_m_00 #samsung_m_01 .sam_offset-11 {
+    margin-left: 91.666667%; }
+  @media (max-width: 480px) {
+    #samsung_m_00 #samsung_m_01 .sam_col-xs {
+      -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      max-width: 100%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-xs-auto {
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      width: auto;
+      max-width: 100%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-xs-1 {
+      -ms-flex: 0 0 8.333333%;
+      flex: 0 0 8.333333%;
+      max-width: 8.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-xs-2 {
+      -ms-flex: 0 0 16.666667%;
+      flex: 0 0 16.666667%;
+      max-width: 16.666667%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-xs-3 {
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+      max-width: 25%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-xs-4 {
+      -ms-flex: 0 0 33.333333%;
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-xs-5 {
+      -ms-flex: 0 0 41.666667%;
+      flex: 0 0 41.666667%;
+      max-width: 41.666667%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-xs-6 {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-xs-7 {
+      -ms-flex: 0 0 58.333333%;
+      flex: 0 0 58.333333%;
+      max-width: 58.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-xs-8 {
+      -ms-flex: 0 0 66.666667%;
+      flex: 0 0 66.666667%;
+      max-width: 66.666667%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-xs-9 {
+      -ms-flex: 0 0 75%;
+      flex: 0 0 75%;
+      max-width: 75%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-xs-10 {
+      -ms-flex: 0 0 83.333333%;
+      flex: 0 0 83.333333%;
+      max-width: 83.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-xs-11 {
+      -ms-flex: 0 0 91.666667%;
+      flex: 0 0 91.666667%;
+      max-width: 91.666667%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-xs-12 {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%; }
+    #samsung_m_00 #samsung_m_01 .sam_order-xs-first {
+      -ms-flex-order: -1;
+      order: -1; }
+    #samsung_m_00 #samsung_m_01 .sam_order-xs-last {
+      -ms-flex-order: 13;
+      order: 13; }
+    #samsung_m_00 #samsung_m_01 .sam_order-xs-0 {
+      -ms-flex-order: 0;
+      order: 0; }
+    #samsung_m_00 #samsung_m_01 .sam_order-xs-1 {
+      -ms-flex-order: 1;
+      order: 1; }
+    #samsung_m_00 #samsung_m_01 .sam_order-xs-2 {
+      -ms-flex-order: 2;
+      order: 2; }
+    #samsung_m_00 #samsung_m_01 .sam_order-xs-3 {
+      -ms-flex-order: 3;
+      order: 3; }
+    #samsung_m_00 #samsung_m_01 .sam_order-xs-4 {
+      -ms-flex-order: 4;
+      order: 4; }
+    #samsung_m_00 #samsung_m_01 .sam_order-xs-5 {
+      -ms-flex-order: 5;
+      order: 5; }
+    #samsung_m_00 #samsung_m_01 .sam_order-xs-6 {
+      -ms-flex-order: 6;
+      order: 6; }
+    #samsung_m_00 #samsung_m_01 .sam_order-xs-7 {
+      -ms-flex-order: 7;
+      order: 7; }
+    #samsung_m_00 #samsung_m_01 .sam_order-xs-8 {
+      -ms-flex-order: 8;
+      order: 8; }
+    #samsung_m_00 #samsung_m_01 .sam_order-xs-9 {
+      -ms-flex-order: 9;
+      order: 9; }
+    #samsung_m_00 #samsung_m_01 .sam_order-xs-10 {
+      -ms-flex-order: 10;
+      order: 10; }
+    #samsung_m_00 #samsung_m_01 .sam_order-xs-11 {
+      -ms-flex-order: 11;
+      order: 11; }
+    #samsung_m_00 #samsung_m_01 .sam_order-xs-12 {
+      -ms-flex-order: 12;
+      order: 12; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-xs-0 {
+      margin-left: 0; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-xs-1 {
+      margin-left: 8.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-xs-2 {
+      margin-left: 16.666667%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-xs-3 {
+      margin-left: 25%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-xs-4 {
+      margin-left: 33.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-xs-5 {
+      margin-left: 41.666667%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-xs-6 {
+      margin-left: 50%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-xs-7 {
+      margin-left: 58.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-xs-8 {
+      margin-left: 66.666667%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-xs-9 {
+      margin-left: 75%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-xs-10 {
+      margin-left: 83.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-xs-11 {
+      margin-left: 91.666667%; } }
+  @media (min-width: 480px) {
+    #samsung_m_00 #samsung_m_01 .sam_col-sm {
+      -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      max-width: 100%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-sm-auto {
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      width: auto;
+      max-width: 100%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-sm-1 {
+      -ms-flex: 0 0 8.333333%;
+      flex: 0 0 8.333333%;
+      max-width: 8.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-sm-2 {
+      -ms-flex: 0 0 16.666667%;
+      flex: 0 0 16.666667%;
+      max-width: 16.666667%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-sm-3 {
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+      max-width: 25%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-sm-4 {
+      -ms-flex: 0 0 33.333333%;
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-sm-5 {
+      -ms-flex: 0 0 41.666667%;
+      flex: 0 0 41.666667%;
+      max-width: 41.666667%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-sm-6 {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-sm-7 {
+      -ms-flex: 0 0 58.333333%;
+      flex: 0 0 58.333333%;
+      max-width: 58.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-sm-8 {
+      -ms-flex: 0 0 66.666667%;
+      flex: 0 0 66.666667%;
+      max-width: 66.666667%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-sm-9 {
+      -ms-flex: 0 0 75%;
+      flex: 0 0 75%;
+      max-width: 75%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-sm-10 {
+      -ms-flex: 0 0 83.333333%;
+      flex: 0 0 83.333333%;
+      max-width: 83.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-sm-11 {
+      -ms-flex: 0 0 91.666667%;
+      flex: 0 0 91.666667%;
+      max-width: 91.666667%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-sm-12 {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%; }
+    #samsung_m_00 #samsung_m_01 .sam_order-sm-first {
+      -ms-flex-order: -1;
+      order: -1; }
+    #samsung_m_00 #samsung_m_01 .sam_order-sm-last {
+      -ms-flex-order: 13;
+      order: 13; }
+    #samsung_m_00 #samsung_m_01 .sam_order-sm-0 {
+      -ms-flex-order: 0;
+      order: 0; }
+    #samsung_m_00 #samsung_m_01 .sam_order-sm-1 {
+      -ms-flex-order: 1;
+      order: 1; }
+    #samsung_m_00 #samsung_m_01 .sam_order-sm-2 {
+      -ms-flex-order: 2;
+      order: 2; }
+    #samsung_m_00 #samsung_m_01 .sam_order-sm-3 {
+      -ms-flex-order: 3;
+      order: 3; }
+    #samsung_m_00 #samsung_m_01 .sam_order-sm-4 {
+      -ms-flex-order: 4;
+      order: 4; }
+    #samsung_m_00 #samsung_m_01 .sam_order-sm-5 {
+      -ms-flex-order: 5;
+      order: 5; }
+    #samsung_m_00 #samsung_m_01 .sam_order-sm-6 {
+      -ms-flex-order: 6;
+      order: 6; }
+    #samsung_m_00 #samsung_m_01 .sam_order-sm-7 {
+      -ms-flex-order: 7;
+      order: 7; }
+    #samsung_m_00 #samsung_m_01 .sam_order-sm-8 {
+      -ms-flex-order: 8;
+      order: 8; }
+    #samsung_m_00 #samsung_m_01 .sam_order-sm-9 {
+      -ms-flex-order: 9;
+      order: 9; }
+    #samsung_m_00 #samsung_m_01 .sam_order-sm-10 {
+      -ms-flex-order: 10;
+      order: 10; }
+    #samsung_m_00 #samsung_m_01 .sam_order-sm-11 {
+      -ms-flex-order: 11;
+      order: 11; }
+    #samsung_m_00 #samsung_m_01 .sam_order-sm-12 {
+      -ms-flex-order: 12;
+      order: 12; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-sm-0 {
+      margin-left: 0; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-sm-1 {
+      margin-left: 8.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-sm-2 {
+      margin-left: 16.666667%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-sm-3 {
+      margin-left: 25%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-sm-4 {
+      margin-left: 33.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-sm-5 {
+      margin-left: 41.666667%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-sm-6 {
+      margin-left: 50%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-sm-7 {
+      margin-left: 58.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-sm-8 {
+      margin-left: 66.666667%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-sm-9 {
+      margin-left: 75%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-sm-10 {
+      margin-left: 83.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-sm-11 {
+      margin-left: 91.666667%; } }
+  @media (min-width: 800px) {
+    #samsung_m_00 #samsung_m_01 .sam_col-md {
+      -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      max-width: 100%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-md-auto {
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      width: auto;
+      max-width: 100%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-md-1 {
+      -ms-flex: 0 0 8.333333%;
+      flex: 0 0 8.333333%;
+      max-width: 8.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-md-2 {
+      -ms-flex: 0 0 16.666667%;
+      flex: 0 0 16.666667%;
+      max-width: 16.666667%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-md-3 {
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+      max-width: 25%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-md-4 {
+      -ms-flex: 0 0 33.333333%;
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-md-5 {
+      -ms-flex: 0 0 41.666667%;
+      flex: 0 0 41.666667%;
+      max-width: 41.666667%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-md-6 {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-md-7 {
+      -ms-flex: 0 0 58.333333%;
+      flex: 0 0 58.333333%;
+      max-width: 58.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-md-8 {
+      -ms-flex: 0 0 66.666667%;
+      flex: 0 0 66.666667%;
+      max-width: 66.666667%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-md-9 {
+      -ms-flex: 0 0 75%;
+      flex: 0 0 75%;
+      max-width: 75%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-md-10 {
+      -ms-flex: 0 0 83.333333%;
+      flex: 0 0 83.333333%;
+      max-width: 83.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-md-11 {
+      -ms-flex: 0 0 91.666667%;
+      flex: 0 0 91.666667%;
+      max-width: 91.666667%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-md-12 {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%; }
+    #samsung_m_00 #samsung_m_01 .sam_order-md-first {
+      -ms-flex-order: -1;
+      order: -1; }
+    #samsung_m_00 #samsung_m_01 .sam_order-md-last {
+      -ms-flex-order: 13;
+      order: 13; }
+    #samsung_m_00 #samsung_m_01 .sam_order-md-0 {
+      -ms-flex-order: 0;
+      order: 0; }
+    #samsung_m_00 #samsung_m_01 .sam_order-md-1 {
+      -ms-flex-order: 1;
+      order: 1; }
+    #samsung_m_00 #samsung_m_01 .sam_order-md-2 {
+      -ms-flex-order: 2;
+      order: 2; }
+    #samsung_m_00 #samsung_m_01 .sam_order-md-3 {
+      -ms-flex-order: 3;
+      order: 3; }
+    #samsung_m_00 #samsung_m_01 .sam_order-md-4 {
+      -ms-flex-order: 4;
+      order: 4; }
+    #samsung_m_00 #samsung_m_01 .sam_order-md-5 {
+      -ms-flex-order: 5;
+      order: 5; }
+    #samsung_m_00 #samsung_m_01 .sam_order-md-6 {
+      -ms-flex-order: 6;
+      order: 6; }
+    #samsung_m_00 #samsung_m_01 .sam_order-md-7 {
+      -ms-flex-order: 7;
+      order: 7; }
+    #samsung_m_00 #samsung_m_01 .sam_order-md-8 {
+      -ms-flex-order: 8;
+      order: 8; }
+    #samsung_m_00 #samsung_m_01 .sam_order-md-9 {
+      -ms-flex-order: 9;
+      order: 9; }
+    #samsung_m_00 #samsung_m_01 .sam_order-md-10 {
+      -ms-flex-order: 10;
+      order: 10; }
+    #samsung_m_00 #samsung_m_01 .sam_order-md-11 {
+      -ms-flex-order: 11;
+      order: 11; }
+    #samsung_m_00 #samsung_m_01 .sam_order-md-12 {
+      -ms-flex-order: 12;
+      order: 12; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-md-0 {
+      margin-left: 0; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-md-1 {
+      margin-left: 8.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-md-2 {
+      margin-left: 16.666667%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-md-3 {
+      margin-left: 25%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-md-4 {
+      margin-left: 33.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-md-5 {
+      margin-left: 41.666667%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-md-6 {
+      margin-left: 50%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-md-7 {
+      margin-left: 58.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-md-8 {
+      margin-left: 66.666667%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-md-9 {
+      margin-left: 75%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-md-10 {
+      margin-left: 83.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-md-11 {
+      margin-left: 91.666667%; } }
+  @media (min-width: 960px) {
+    #samsung_m_00 #samsung_m_01 .sam_col-lg {
+      -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      max-width: 100%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-lg-auto {
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      width: auto;
+      max-width: 100%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-lg-1 {
+      -ms-flex: 0 0 8.333333%;
+      flex: 0 0 8.333333%;
+      max-width: 8.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-lg-2 {
+      -ms-flex: 0 0 16.666667%;
+      flex: 0 0 16.666667%;
+      max-width: 16.666667%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-lg-3 {
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+      max-width: 25%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-lg-4 {
+      -ms-flex: 0 0 33.333333%;
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-lg-5 {
+      -ms-flex: 0 0 41.666667%;
+      flex: 0 0 41.666667%;
+      max-width: 41.666667%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-lg-6 {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-lg-7 {
+      -ms-flex: 0 0 58.333333%;
+      flex: 0 0 58.333333%;
+      max-width: 58.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-lg-8 {
+      -ms-flex: 0 0 66.666667%;
+      flex: 0 0 66.666667%;
+      max-width: 66.666667%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-lg-9 {
+      -ms-flex: 0 0 75%;
+      flex: 0 0 75%;
+      max-width: 75%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-lg-10 {
+      -ms-flex: 0 0 83.333333%;
+      flex: 0 0 83.333333%;
+      max-width: 83.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-lg-11 {
+      -ms-flex: 0 0 91.666667%;
+      flex: 0 0 91.666667%;
+      max-width: 91.666667%; }
+    #samsung_m_00 #samsung_m_01 .sam_col-lg-12 {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%; }
+    #samsung_m_00 #samsung_m_01 .sam_order-lg-first {
+      -ms-flex-order: -1;
+      order: -1; }
+    #samsung_m_00 #samsung_m_01 .sam_order-lg-last {
+      -ms-flex-order: 13;
+      order: 13; }
+    #samsung_m_00 #samsung_m_01 .sam_order-lg-0 {
+      -ms-flex-order: 0;
+      order: 0; }
+    #samsung_m_00 #samsung_m_01 .sam_order-lg-1 {
+      -ms-flex-order: 1;
+      order: 1; }
+    #samsung_m_00 #samsung_m_01 .sam_order-lg-2 {
+      -ms-flex-order: 2;
+      order: 2; }
+    #samsung_m_00 #samsung_m_01 .sam_order-lg-3 {
+      -ms-flex-order: 3;
+      order: 3; }
+    #samsung_m_00 #samsung_m_01 .sam_order-lg-4 {
+      -ms-flex-order: 4;
+      order: 4; }
+    #samsung_m_00 #samsung_m_01 .sam_order-lg-5 {
+      -ms-flex-order: 5;
+      order: 5; }
+    #samsung_m_00 #samsung_m_01 .sam_order-lg-6 {
+      -ms-flex-order: 6;
+      order: 6; }
+    #samsung_m_00 #samsung_m_01 .sam_order-lg-7 {
+      -ms-flex-order: 7;
+      order: 7; }
+    #samsung_m_00 #samsung_m_01 .sam_order-lg-8 {
+      -ms-flex-order: 8;
+      order: 8; }
+    #samsung_m_00 #samsung_m_01 .sam_order-lg-9 {
+      -ms-flex-order: 9;
+      order: 9; }
+    #samsung_m_00 #samsung_m_01 .sam_order-lg-10 {
+      -ms-flex-order: 10;
+      order: 10; }
+    #samsung_m_00 #samsung_m_01 .sam_order-lg-11 {
+      -ms-flex-order: 11;
+      order: 11; }
+    #samsung_m_00 #samsung_m_01 .sam_order-lg-12 {
+      -ms-flex-order: 12;
+      order: 12; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-lg-0 {
+      margin-left: 0; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-lg-1 {
+      margin-left: 8.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-lg-2 {
+      margin-left: 16.666667%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-lg-3 {
+      margin-left: 25%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-lg-4 {
+      margin-left: 33.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-lg-5 {
+      margin-left: 41.666667%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-lg-6 {
+      margin-left: 50%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-lg-7 {
+      margin-left: 58.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-lg-8 {
+      margin-left: 66.666667%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-lg-9 {
+      margin-left: 75%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-lg-10 {
+      margin-left: 83.333333%; }
+    #samsung_m_00 #samsung_m_01 .sam_offset-lg-11 {
+      margin-left: 91.666667%; } }
+  #samsung_m_00 #samsung_m_01 .sam_embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden; }
+  #samsung_m_00 #samsung_m_01 .sam_embed-responsive::before {
+    display: block;
+    content: ""; }
+  #samsung_m_00 #samsung_m_01 .sam_embed-responsive .embed-responsive-item,
+  #samsung_m_00 #samsung_m_01 .sam_embed-responsive embed,
+  #samsung_m_00 #samsung_m_01 .sam_embed-responsive iframe,
+  #samsung_m_00 #samsung_m_01 .sam_embed-responsive object,
+  #samsung_m_00 #samsung_m_01 .sam_embed-responsive video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0; }
+  #samsung_m_00 #samsung_m_01 .sam_embed-responsive-21by9::before {
+    padding-top: 42.857143%; }
+  #samsung_m_00 #samsung_m_01 .sam_embed-responsive-16by9::before {
+    padding-top: 56.25%; }
+  #samsung_m_00 #samsung_m_01 .sam_embed-responsive-3by4::before {
+    padding-top: 133.333333%; }
+  #samsung_m_00 #samsung_m_01 .sam_embed-responsive-1by1::before {
+    padding-top: 100%; }
+  #samsung_m_00 #samsung_m_01 .sam_flex-row {
+    -ms-flex-direction: row !important;
+    flex-direction: row !important; }
+  #samsung_m_00 #samsung_m_01 .sam_flex-column {
+    -ms-flex-direction: column !important;
+    flex-direction: column !important; }
+  #samsung_m_00 #samsung_m_01 .sam_flex-row-reverse {
+    -ms-flex-direction: row-reverse !important;
+    flex-direction: row-reverse !important; }
+  #samsung_m_00 #samsung_m_01 .sam_flex-column-reverse {
+    -ms-flex-direction: column-reverse !important;
+    flex-direction: column-reverse !important; }
+  #samsung_m_00 #samsung_m_01 .sam_flex-wrap {
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important; }
+  #samsung_m_00 #samsung_m_01 .sam_flex-nowrap {
+    -ms-flex-wrap: nowrap !important;
+    flex-wrap: nowrap !important; }
+  #samsung_m_00 #samsung_m_01 .sam_flex-wrap-reverse {
+    -ms-flex-wrap: wrap-reverse !important;
+    flex-wrap: wrap-reverse !important; }
+  #samsung_m_00 #samsung_m_01 .sam_flex-fill {
+    -ms-flex: 1 1 auto !important;
+    flex: 1 1 auto !important; }
+  #samsung_m_00 #samsung_m_01 .sam_flex-grow-0 {
+    -ms-flex-positive: 0 !important;
+    flex-grow: 0 !important; }
+  #samsung_m_00 #samsung_m_01 .sam_flex-grow-1 {
+    -ms-flex-positive: 1 !important;
+    flex-grow: 1 !important; }
+  #samsung_m_00 #samsung_m_01 .sam_flex-shrink-0 {
+    -ms-flex-negative: 0 !important;
+    flex-shrink: 0 !important; }
+  #samsung_m_00 #samsung_m_01 .sam_flex-shrink-1 {
+    -ms-flex-negative: 1 !important;
+    flex-shrink: 1 !important; }
+  #samsung_m_00 #samsung_m_01 .sam_justify-content-start {
+    -ms-flex-pack: start !important;
+    justify-content: flex-start !important; }
+  #samsung_m_00 #samsung_m_01 .sam_justify-content-end {
+    -ms-flex-pack: end !important;
+    justify-content: flex-end !important; }
+  #samsung_m_00 #samsung_m_01 .sam_justify-content-center {
+    -ms-flex-pack: center !important;
+    justify-content: center !important; }
+  #samsung_m_00 #samsung_m_01 .sam_justify-content-between {
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important; }
+  #samsung_m_00 #samsung_m_01 .sam_justify-content-around {
+    -ms-flex-pack: distribute !important;
+    justify-content: space-around !important; }
+  #samsung_m_00 #samsung_m_01 .sam_align-items-start {
+    -ms-flex-align: start !important;
+    align-items: flex-start !important; }
+  #samsung_m_00 #samsung_m_01 .sam_align-items-end {
+    -ms-flex-align: end !important;
+    align-items: flex-end !important; }
+  #samsung_m_00 #samsung_m_01 .sam_align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important; }
+  #samsung_m_00 #samsung_m_01 .sam_align-items-baseline {
+    -ms-flex-align: baseline !important;
+    align-items: baseline !important; }
+  #samsung_m_00 #samsung_m_01 .sam_align-items-stretch {
+    -ms-flex-align: stretch !important;
+    align-items: stretch !important; }
+  #samsung_m_00 #samsung_m_01 .sam_align-content-start {
+    -ms-flex-line-pack: start !important;
+    align-content: flex-start !important; }
+  #samsung_m_00 #samsung_m_01 .sam_align-content-end {
+    -ms-flex-line-pack: end !important;
+    align-content: flex-end !important; }
+  #samsung_m_00 #samsung_m_01 .sam_align-content-center {
+    -ms-flex-line-pack: center !important;
+    align-content: center !important; }
+  #samsung_m_00 #samsung_m_01 .sam_align-content-between {
+    -ms-flex-line-pack: justify !important;
+    align-content: space-between !important; }
+  #samsung_m_00 #samsung_m_01 .sam_align-content-around {
+    -ms-flex-line-pack: distribute !important;
+    align-content: space-around !important; }
+  #samsung_m_00 #samsung_m_01 .sam_align-content-stretch {
+    -ms-flex-line-pack: stretch !important;
+    align-content: stretch !important; }
+  #samsung_m_00 #samsung_m_01 .sam_align-self-auto {
+    -ms-flex-item-align: auto !important;
+    align-self: auto !important; }
+  #samsung_m_00 #samsung_m_01 .sam_align-self-start {
+    -ms-flex-item-align: start !important;
+    align-self: flex-start !important; }
+  #samsung_m_00 #samsung_m_01 .sam_align-self-end {
+    -ms-flex-item-align: end !important;
+    align-self: flex-end !important; }
+  #samsung_m_00 #samsung_m_01 .sam_align-self-center {
+    -ms-flex-item-align: center !important;
+    align-self: center !important; }
+  #samsung_m_00 #samsung_m_01 .sam_align-self-baseline {
+    -ms-flex-item-align: baseline !important;
+    align-self: baseline !important; }
+  #samsung_m_00 #samsung_m_01 .sam_align-self-stretch {
+    -ms-flex-item-align: stretch !important;
+    align-self: stretch !important; }
+  @media (min-width: 480px) {
+    #samsung_m_00 #samsung_m_01 .sam_flex-sm-row {
+      -ms-flex-direction: row !important;
+      flex-direction: row !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-sm-column {
+      -ms-flex-direction: column !important;
+      flex-direction: column !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-sm-row-reverse {
+      -ms-flex-direction: row-reverse !important;
+      flex-direction: row-reverse !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-sm-column-reverse {
+      -ms-flex-direction: column-reverse !important;
+      flex-direction: column-reverse !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-sm-wrap {
+      -ms-flex-wrap: wrap !important;
+      flex-wrap: wrap !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-sm-nowrap {
+      -ms-flex-wrap: nowrap !important;
+      flex-wrap: nowrap !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-sm-wrap-reverse {
+      -ms-flex-wrap: wrap-reverse !important;
+      flex-wrap: wrap-reverse !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-sm-fill {
+      -ms-flex: 1 1 auto !important;
+      flex: 1 1 auto !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-sm-grow-0 {
+      -ms-flex-positive: 0 !important;
+      flex-grow: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-sm-grow-1 {
+      -ms-flex-positive: 1 !important;
+      flex-grow: 1 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-sm-shrink-0 {
+      -ms-flex-negative: 0 !important;
+      flex-shrink: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-sm-shrink-1 {
+      -ms-flex-negative: 1 !important;
+      flex-shrink: 1 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_justify-content-sm-start {
+      -ms-flex-pack: start !important;
+      justify-content: flex-start !important; }
+    #samsung_m_00 #samsung_m_01 .sam_justify-content-sm-end {
+      -ms-flex-pack: end !important;
+      justify-content: flex-end !important; }
+    #samsung_m_00 #samsung_m_01 .sam_justify-content-sm-center {
+      -ms-flex-pack: center !important;
+      justify-content: center !important; }
+    #samsung_m_00 #samsung_m_01 .sam_justify-content-sm-between {
+      -ms-flex-pack: justify !important;
+      justify-content: space-between !important; }
+    #samsung_m_00 #samsung_m_01 .sam_justify-content-sm-around {
+      -ms-flex-pack: distribute !important;
+      justify-content: space-around !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-items-sm-start {
+      -ms-flex-align: start !important;
+      align-items: flex-start !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-items-sm-end {
+      -ms-flex-align: end !important;
+      align-items: flex-end !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-items-sm-center {
+      -ms-flex-align: center !important;
+      align-items: center !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-items-sm-baseline {
+      -ms-flex-align: baseline !important;
+      align-items: baseline !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-items-sm-stretch {
+      -ms-flex-align: stretch !important;
+      align-items: stretch !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-content-sm-start {
+      -ms-flex-line-pack: start !important;
+      align-content: flex-start !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-content-sm-end {
+      -ms-flex-line-pack: end !important;
+      align-content: flex-end !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-content-sm-center {
+      -ms-flex-line-pack: center !important;
+      align-content: center !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-content-sm-between {
+      -ms-flex-line-pack: justify !important;
+      align-content: space-between !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-content-sm-around {
+      -ms-flex-line-pack: distribute !important;
+      align-content: space-around !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-content-sm-stretch {
+      -ms-flex-line-pack: stretch !important;
+      align-content: stretch !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-self-sm-auto {
+      -ms-flex-item-align: auto !important;
+      align-self: auto !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-self-sm-start {
+      -ms-flex-item-align: start !important;
+      align-self: flex-start !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-self-sm-end {
+      -ms-flex-item-align: end !important;
+      align-self: flex-end !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-self-sm-center {
+      -ms-flex-item-align: center !important;
+      align-self: center !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-self-sm-baseline {
+      -ms-flex-item-align: baseline !important;
+      align-self: baseline !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-self-sm-stretch {
+      -ms-flex-item-align: stretch !important;
+      align-self: stretch !important; } }
+  @media (min-width: 800px) {
+    #samsung_m_00 #samsung_m_01 .sam_flex-md-row {
+      -ms-flex-direction: row !important;
+      flex-direction: row !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-md-column {
+      -ms-flex-direction: column !important;
+      flex-direction: column !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-md-row-reverse {
+      -ms-flex-direction: row-reverse !important;
+      flex-direction: row-reverse !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-md-column-reverse {
+      -ms-flex-direction: column-reverse !important;
+      flex-direction: column-reverse !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-md-wrap {
+      -ms-flex-wrap: wrap !important;
+      flex-wrap: wrap !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-md-nowrap {
+      -ms-flex-wrap: nowrap !important;
+      flex-wrap: nowrap !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-md-wrap-reverse {
+      -ms-flex-wrap: wrap-reverse !important;
+      flex-wrap: wrap-reverse !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-md-fill {
+      -ms-flex: 1 1 auto !important;
+      flex: 1 1 auto !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-md-grow-0 {
+      -ms-flex-positive: 0 !important;
+      flex-grow: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-md-grow-1 {
+      -ms-flex-positive: 1 !important;
+      flex-grow: 1 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-md-shrink-0 {
+      -ms-flex-negative: 0 !important;
+      flex-shrink: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-md-shrink-1 {
+      -ms-flex-negative: 1 !important;
+      flex-shrink: 1 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_justify-content-md-start {
+      -ms-flex-pack: start !important;
+      justify-content: flex-start !important; }
+    #samsung_m_00 #samsung_m_01 .sam_justify-content-md-end {
+      -ms-flex-pack: end !important;
+      justify-content: flex-end !important; }
+    #samsung_m_00 #samsung_m_01 .sam_justify-content-md-center {
+      -ms-flex-pack: center !important;
+      justify-content: center !important; }
+    #samsung_m_00 #samsung_m_01 .sam_justify-content-md-between {
+      -ms-flex-pack: justify !important;
+      justify-content: space-between !important; }
+    #samsung_m_00 #samsung_m_01 .sam_justify-content-md-around {
+      -ms-flex-pack: distribute !important;
+      justify-content: space-around !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-items-md-start {
+      -ms-flex-align: start !important;
+      align-items: flex-start !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-items-md-end {
+      -ms-flex-align: end !important;
+      align-items: flex-end !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-items-md-center {
+      -ms-flex-align: center !important;
+      align-items: center !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-items-md-baseline {
+      -ms-flex-align: baseline !important;
+      align-items: baseline !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-items-md-stretch {
+      -ms-flex-align: stretch !important;
+      align-items: stretch !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-content-md-start {
+      -ms-flex-line-pack: start !important;
+      align-content: flex-start !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-content-md-end {
+      -ms-flex-line-pack: end !important;
+      align-content: flex-end !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-content-md-center {
+      -ms-flex-line-pack: center !important;
+      align-content: center !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-content-md-between {
+      -ms-flex-line-pack: justify !important;
+      align-content: space-between !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-content-md-around {
+      -ms-flex-line-pack: distribute !important;
+      align-content: space-around !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-content-md-stretch {
+      -ms-flex-line-pack: stretch !important;
+      align-content: stretch !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-self-md-auto {
+      -ms-flex-item-align: auto !important;
+      align-self: auto !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-self-md-start {
+      -ms-flex-item-align: start !important;
+      align-self: flex-start !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-self-md-end {
+      -ms-flex-item-align: end !important;
+      align-self: flex-end !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-self-md-center {
+      -ms-flex-item-align: center !important;
+      align-self: center !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-self-md-baseline {
+      -ms-flex-item-align: baseline !important;
+      align-self: baseline !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-self-md-stretch {
+      -ms-flex-item-align: stretch !important;
+      align-self: stretch !important; } }
+  @media (min-width: 960px) {
+    #samsung_m_00 #samsung_m_01 .sam_flex-lg-row {
+      -ms-flex-direction: row !important;
+      flex-direction: row !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-lg-column {
+      -ms-flex-direction: column !important;
+      flex-direction: column !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-lg-row-reverse {
+      -ms-flex-direction: row-reverse !important;
+      flex-direction: row-reverse !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-lg-column-reverse {
+      -ms-flex-direction: column-reverse !important;
+      flex-direction: column-reverse !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-lg-wrap {
+      -ms-flex-wrap: wrap !important;
+      flex-wrap: wrap !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-lg-nowrap {
+      -ms-flex-wrap: nowrap !important;
+      flex-wrap: nowrap !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-lg-wrap-reverse {
+      -ms-flex-wrap: wrap-reverse !important;
+      flex-wrap: wrap-reverse !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-lg-fill {
+      -ms-flex: 1 1 auto !important;
+      flex: 1 1 auto !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-lg-grow-0 {
+      -ms-flex-positive: 0 !important;
+      flex-grow: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-lg-grow-1 {
+      -ms-flex-positive: 1 !important;
+      flex-grow: 1 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-lg-shrink-0 {
+      -ms-flex-negative: 0 !important;
+      flex-shrink: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_flex-lg-shrink-1 {
+      -ms-flex-negative: 1 !important;
+      flex-shrink: 1 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_justify-content-lg-start {
+      -ms-flex-pack: start !important;
+      justify-content: flex-start !important; }
+    #samsung_m_00 #samsung_m_01 .sam_justify-content-lg-end {
+      -ms-flex-pack: end !important;
+      justify-content: flex-end !important; }
+    #samsung_m_00 #samsung_m_01 .sam_justify-content-lg-center {
+      -ms-flex-pack: center !important;
+      justify-content: center !important; }
+    #samsung_m_00 #samsung_m_01 .sam_justify-content-lg-between {
+      -ms-flex-pack: justify !important;
+      justify-content: space-between !important; }
+    #samsung_m_00 #samsung_m_01 .sam_justify-content-lg-around {
+      -ms-flex-pack: distribute !important;
+      justify-content: space-around !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-items-lg-start {
+      -ms-flex-align: start !important;
+      align-items: flex-start !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-items-lg-end {
+      -ms-flex-align: end !important;
+      align-items: flex-end !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-items-lg-center {
+      -ms-flex-align: center !important;
+      align-items: center !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-items-lg-baseline {
+      -ms-flex-align: baseline !important;
+      align-items: baseline !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-items-lg-stretch {
+      -ms-flex-align: stretch !important;
+      align-items: stretch !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-content-lg-start {
+      -ms-flex-line-pack: start !important;
+      align-content: flex-start !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-content-lg-end {
+      -ms-flex-line-pack: end !important;
+      align-content: flex-end !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-content-lg-center {
+      -ms-flex-line-pack: center !important;
+      align-content: center !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-content-lg-between {
+      -ms-flex-line-pack: justify !important;
+      align-content: space-between !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-content-lg-around {
+      -ms-flex-line-pack: distribute !important;
+      align-content: space-around !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-content-lg-stretch {
+      -ms-flex-line-pack: stretch !important;
+      align-content: stretch !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-self-lg-auto {
+      -ms-flex-item-align: auto !important;
+      align-self: auto !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-self-lg-start {
+      -ms-flex-item-align: start !important;
+      align-self: flex-start !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-self-lg-end {
+      -ms-flex-item-align: end !important;
+      align-self: flex-end !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-self-lg-center {
+      -ms-flex-item-align: center !important;
+      align-self: center !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-self-lg-baseline {
+      -ms-flex-item-align: baseline !important;
+      align-self: baseline !important; }
+    #samsung_m_00 #samsung_m_01 .sam_align-self-lg-stretch {
+      -ms-flex-item-align: stretch !important;
+      align-self: stretch !important; } }
+  #samsung_m_00 #samsung_m_01 .sam_float-left {
+    float: left !important; }
+  #samsung_m_00 #samsung_m_01 .sam_float-right {
+    float: right !important; }
+  #samsung_m_00 #samsung_m_01 .sam_float-none {
+    float: none !important; }
+  @media (min-width: 480px) {
+    #samsung_m_00 #samsung_m_01 .sam_float-sm-left {
+      float: left !important; }
+    #samsung_m_00 #samsung_m_01 .sam_float-sm-right {
+      float: right !important; }
+    #samsung_m_00 #samsung_m_01 .sam_float-sm-none {
+      float: none !important; } }
+  @media (min-width: 800px) {
+    #samsung_m_00 #samsung_m_01 .sam_float-md-left {
+      float: left !important; }
+    #samsung_m_00 #samsung_m_01 .sam_float-md-right {
+      float: right !important; }
+    #samsung_m_00 #samsung_m_01 .sam_float-md-none {
+      float: none !important; } }
+  @media (min-width: 960px) {
+    #samsung_m_00 #samsung_m_01 .sam_float-lg-left {
+      float: left !important; }
+    #samsung_m_00 #samsung_m_01 .sam_float-lg-right {
+      float: right !important; }
+    #samsung_m_00 #samsung_m_01 .sam_float-lg-none {
+      float: none !important; } }
+  #samsung_m_00 #samsung_m_01 .sam_overflow-auto {
+    overflow: auto !important; }
+  #samsung_m_00 #samsung_m_01 .sam_overflow-hidden {
+    overflow: hidden !important; }
+  #samsung_m_00 #samsung_m_01 .sam_position-static {
+    position: static !important; }
+  #samsung_m_00 #samsung_m_01 .sam_position-relative {
+    position: relative !important; }
+  #samsung_m_00 #samsung_m_01 .sam_position-absolute {
+    position: absolute !important; }
+  #samsung_m_00 #samsung_m_01 .sam_position-fixed {
+    position: fixed !important; }
+  #samsung_m_00 #samsung_m_01 .sam_position-sticky {
+    position: -webkit-sticky !important;
+    position: sticky !important; }
+  #samsung_m_00 #samsung_m_01 .sam_fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030; }
+  #samsung_m_00 #samsung_m_01 .sam_fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030; }
+  @supports (position: -webkit-sticky) or (position: sticky) {
+    #samsung_m_00 #samsung_m_01 .sam_sticky-top {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      z-index: 1020; } }
+  #samsung_m_00 #samsung_m_01 .sam_sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0; }
+  #samsung_m_00 #samsung_m_01 .sam_sr-only-focusable:active,
+  #samsung_m_00 #samsung_m_01 .sam_sr-only-focusable:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    clip: auto;
+    white-space: normal; }
+  #samsung_m_00 #samsung_m_01 .sam_w-25 {
+    width: 25% !important; }
+  #samsung_m_00 #samsung_m_01 .sam_w-50 {
+    width: 50% !important; }
+  #samsung_m_00 #samsung_m_01 .sam_w-75 {
+    width: 75% !important; }
+  #samsung_m_00 #samsung_m_01 .sam_w-100 {
+    width: 100% !important; }
+  #samsung_m_00 #samsung_m_01 .sam_w-auto {
+    width: auto !important; }
+  #samsung_m_00 #samsung_m_01 .sam_h-25 {
+    height: 25% !important; }
+  #samsung_m_00 #samsung_m_01 .sam_h-50 {
+    height: 50% !important; }
+  #samsung_m_00 #samsung_m_01 .sam_h-75 {
+    height: 75% !important; }
+  #samsung_m_00 #samsung_m_01 .sam_h-100 {
+    height: 100% !important; }
+  #samsung_m_00 #samsung_m_01 .sam_h-auto {
+    height: auto !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mw-100 {
+    max-width: 100% !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mh-100 {
+    max-height: 100% !important; }
+  #samsung_m_00 #samsung_m_01 .sam_min-vw-100 {
+    min-width: 100vw !important; }
+  #samsung_m_00 #samsung_m_01 .sam_min-vh-100 {
+    min-height: 100vh !important; }
+  #samsung_m_00 #samsung_m_01 .sam_vw-100 {
+    width: 100vw !important; }
+  #samsung_m_00 #samsung_m_01 .sam_vh-100 {
+    height: 100vh !important; }
+  #samsung_m_00 #samsung_m_01 .sam_m-0 {
+    margin: 0 !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mt-0,
+  #samsung_m_00 #samsung_m_01 .sam_my-0 {
+    margin-top: 0 !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mr-0,
+  #samsung_m_00 #samsung_m_01 .sam_mx-0 {
+    margin-right: 0 !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mb-0,
+  #samsung_m_00 #samsung_m_01 .sam_my-0 {
+    margin-bottom: 0 !important; }
+  #samsung_m_00 #samsung_m_01 .sam_ml-0,
+  #samsung_m_00 #samsung_m_01 .sam_mx-0 {
+    margin-left: 0 !important; }
+  #samsung_m_00 #samsung_m_01 .sam_m-1 {
+    margin: .25rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mt-1,
+  #samsung_m_00 #samsung_m_01 .sam_my-1 {
+    margin-top: .25rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mr-1,
+  #samsung_m_00 #samsung_m_01 .sam_mx-1 {
+    margin-right: .25rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mb-1,
+  #samsung_m_00 #samsung_m_01 .sam_my-1 {
+    margin-bottom: .25rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_ml-1,
+  #samsung_m_00 #samsung_m_01 .sam_mx-1 {
+    margin-left: .25rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_m-2 {
+    margin: .5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mt-2,
+  #samsung_m_00 #samsung_m_01 .sam_my-2 {
+    margin-top: .5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mr-2,
+  #samsung_m_00 #samsung_m_01 .sam_mx-2 {
+    margin-right: .5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mb-2,
+  #samsung_m_00 #samsung_m_01 .sam_my-2 {
+    margin-bottom: .5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_ml-2,
+  #samsung_m_00 #samsung_m_01 .sam_mx-2 {
+    margin-left: .5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_m-3 {
+    margin: 1rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mt-3,
+  #samsung_m_00 #samsung_m_01 .sam_my-3 {
+    margin-top: 1rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mr-3,
+  #samsung_m_00 #samsung_m_01 .sam_mx-3 {
+    margin-right: 1rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mb-3,
+  #samsung_m_00 #samsung_m_01 .sam_my-3 {
+    margin-bottom: 1rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_ml-3,
+  #samsung_m_00 #samsung_m_01 .sam_mx-3 {
+    margin-left: 1rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_m-4 {
+    margin: 1.5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mt-4,
+  #samsung_m_00 #samsung_m_01 .sam_my-4 {
+    margin-top: 1.5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mr-4,
+  #samsung_m_00 #samsung_m_01 .sam_mx-4 {
+    margin-right: 1.5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mb-4,
+  #samsung_m_00 #samsung_m_01 .sam_my-4 {
+    margin-bottom: 1.5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_ml-4,
+  #samsung_m_00 #samsung_m_01 .sam_mx-4 {
+    margin-left: 1.5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_m-5 {
+    margin: 3rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mt-5,
+  #samsung_m_00 #samsung_m_01 .sam_my-5 {
+    margin-top: 3rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mr-5,
+  #samsung_m_00 #samsung_m_01 .sam_mx-5 {
+    margin-right: 3rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mb-5,
+  #samsung_m_00 #samsung_m_01 .sam_my-5 {
+    margin-bottom: 3rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_ml-5,
+  #samsung_m_00 #samsung_m_01 .sam_mx-5 {
+    margin-left: 3rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_p-0 {
+    padding: 0 !important; }
+  #samsung_m_00 #samsung_m_01 .sam_pt-0,
+  #samsung_m_00 #samsung_m_01 .sam_py-0 {
+    padding-top: 0 !important; }
+  #samsung_m_00 #samsung_m_01 .sam_pr-0,
+  #samsung_m_00 #samsung_m_01 .sam_px-0 {
+    padding-right: 0 !important; }
+  #samsung_m_00 #samsung_m_01 .sam_pb-0,
+  #samsung_m_00 #samsung_m_01 .sam_py-0 {
+    padding-bottom: 0 !important; }
+  #samsung_m_00 #samsung_m_01 .sam_pl-0,
+  #samsung_m_00 #samsung_m_01 .sam_px-0 {
+    padding-left: 0 !important; }
+  #samsung_m_00 #samsung_m_01 .sam_p-1 {
+    padding: .25rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_pt-1,
+  #samsung_m_00 #samsung_m_01 .sam_py-1 {
+    padding-top: .25rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_pr-1,
+  #samsung_m_00 #samsung_m_01 .sam_px-1 {
+    padding-right: .25rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_pb-1,
+  #samsung_m_00 #samsung_m_01 .sam_py-1 {
+    padding-bottom: .25rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_pl-1,
+  #samsung_m_00 #samsung_m_01 .sam_px-1 {
+    padding-left: .25rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_p-2 {
+    padding: .5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_pt-2,
+  #samsung_m_00 #samsung_m_01 .sam_py-2 {
+    padding-top: .5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_pr-2,
+  #samsung_m_00 #samsung_m_01 .sam_px-2 {
+    padding-right: .5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_pb-2,
+  #samsung_m_00 #samsung_m_01 .sam_py-2 {
+    padding-bottom: .5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_pl-2,
+  #samsung_m_00 #samsung_m_01 .sam_px-2 {
+    padding-left: .5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_p-3 {
+    padding: 1rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_pt-3,
+  #samsung_m_00 #samsung_m_01 .sam_py-3 {
+    padding-top: 1rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_pr-3,
+  #samsung_m_00 #samsung_m_01 .sam_px-3 {
+    padding-right: 1rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_pb-3,
+  #samsung_m_00 #samsung_m_01 .sam_py-3 {
+    padding-bottom: 1rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_pl-3,
+  #samsung_m_00 #samsung_m_01 .sam_px-3 {
+    padding-left: 1rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_p-4 {
+    padding: 1.5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_pt-4,
+  #samsung_m_00 #samsung_m_01 .sam_py-4 {
+    padding-top: 1.5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_pr-4,
+  #samsung_m_00 #samsung_m_01 .sam_px-4 {
+    padding-right: 1.5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_pb-4,
+  #samsung_m_00 #samsung_m_01 .sam_py-4 {
+    padding-bottom: 1.5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_pl-4,
+  #samsung_m_00 #samsung_m_01 .sam_px-4 {
+    padding-left: 1.5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_p-5 {
+    padding: 3rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_pt-5,
+  #samsung_m_00 #samsung_m_01 .sam_py-5 {
+    padding-top: 3rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_pr-5,
+  #samsung_m_00 #samsung_m_01 .sam_px-5 {
+    padding-right: 3rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_pb-5,
+  #samsung_m_00 #samsung_m_01 .sam_py-5 {
+    padding-bottom: 3rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_pl-5,
+  #samsung_m_00 #samsung_m_01 .sam_px-5 {
+    padding-left: 3rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_m-n1 {
+    margin: -.25rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mt-n1,
+  #samsung_m_00 #samsung_m_01 .sam_my-n1 {
+    margin-top: -.25rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mr-n1,
+  #samsung_m_00 #samsung_m_01 .sam_mx-n1 {
+    margin-right: -.25rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mb-n1,
+  #samsung_m_00 #samsung_m_01 .sam_my-n1 {
+    margin-bottom: -.25rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_ml-n1,
+  #samsung_m_00 #samsung_m_01 .sam_mx-n1 {
+    margin-left: -.25rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_m-n2 {
+    margin: -.5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mt-n2,
+  #samsung_m_00 #samsung_m_01 .sam_my-n2 {
+    margin-top: -.5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mr-n2,
+  #samsung_m_00 #samsung_m_01 .sam_mx-n2 {
+    margin-right: -.5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mb-n2,
+  #samsung_m_00 #samsung_m_01 .sam_my-n2 {
+    margin-bottom: -.5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_ml-n2,
+  #samsung_m_00 #samsung_m_01 .sam_mx-n2 {
+    margin-left: -.5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_m-n3 {
+    margin: -1rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mt-n3,
+  #samsung_m_00 #samsung_m_01 .sam_my-n3 {
+    margin-top: -1rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mr-n3,
+  #samsung_m_00 #samsung_m_01 .sam_mx-n3 {
+    margin-right: -1rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mb-n3,
+  #samsung_m_00 #samsung_m_01 .sam_my-n3 {
+    margin-bottom: -1rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_ml-n3,
+  #samsung_m_00 #samsung_m_01 .sam_mx-n3 {
+    margin-left: -1rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_m-n4 {
+    margin: -1.5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mt-n4,
+  #samsung_m_00 #samsung_m_01 .sam_my-n4 {
+    margin-top: -1.5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mr-n4,
+  #samsung_m_00 #samsung_m_01 .sam_mx-n4 {
+    margin-right: -1.5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mb-n4,
+  #samsung_m_00 #samsung_m_01 .sam_my-n4 {
+    margin-bottom: -1.5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_ml-n4,
+  #samsung_m_00 #samsung_m_01 .sam_mx-n4 {
+    margin-left: -1.5rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_m-n5 {
+    margin: -3rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mt-n5,
+  #samsung_m_00 #samsung_m_01 .sam_my-n5 {
+    margin-top: -3rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mr-n5,
+  #samsung_m_00 #samsung_m_01 .sam_mx-n5 {
+    margin-right: -3rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mb-n5,
+  #samsung_m_00 #samsung_m_01 .sam_my-n5 {
+    margin-bottom: -3rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_ml-n5,
+  #samsung_m_00 #samsung_m_01 .sam_mx-n5 {
+    margin-left: -3rem !important; }
+  #samsung_m_00 #samsung_m_01 .sam_m-auto {
+    margin: auto !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mt-auto,
+  #samsung_m_00 #samsung_m_01 .sam_my-auto {
+    margin-top: auto !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mr-auto,
+  #samsung_m_00 #samsung_m_01 .sam_mx-auto {
+    margin-right: auto !important; }
+  #samsung_m_00 #samsung_m_01 .sam_mb-auto,
+  #samsung_m_00 #samsung_m_01 .sam_my-auto {
+    margin-bottom: auto !important; }
+  #samsung_m_00 #samsung_m_01 .sam_ml-auto,
+  #samsung_m_00 #samsung_m_01 .sam_mx-auto {
+    margin-left: auto !important; }
+  @media (min-width: 480px) {
+    #samsung_m_00 #samsung_m_01 .sam_m-sm-0 {
+      margin: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-sm-0,
+    #samsung_m_00 #samsung_m_01 .sam_my-sm-0 {
+      margin-top: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-sm-0,
+    #samsung_m_00 #samsung_m_01 .sam_mx-sm-0 {
+      margin-right: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-sm-0,
+    #samsung_m_00 #samsung_m_01 .sam_my-sm-0 {
+      margin-bottom: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-sm-0,
+    #samsung_m_00 #samsung_m_01 .sam_mx-sm-0 {
+      margin-left: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-sm-1 {
+      margin: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-sm-1,
+    #samsung_m_00 #samsung_m_01 .sam_my-sm-1 {
+      margin-top: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-sm-1,
+    #samsung_m_00 #samsung_m_01 .sam_mx-sm-1 {
+      margin-right: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-sm-1,
+    #samsung_m_00 #samsung_m_01 .sam_my-sm-1 {
+      margin-bottom: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-sm-1,
+    #samsung_m_00 #samsung_m_01 .sam_mx-sm-1 {
+      margin-left: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-sm-2 {
+      margin: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-sm-2,
+    #samsung_m_00 #samsung_m_01 .sam_my-sm-2 {
+      margin-top: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-sm-2,
+    #samsung_m_00 #samsung_m_01 .sam_mx-sm-2 {
+      margin-right: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-sm-2,
+    #samsung_m_00 #samsung_m_01 .sam_my-sm-2 {
+      margin-bottom: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-sm-2,
+    #samsung_m_00 #samsung_m_01 .sam_mx-sm-2 {
+      margin-left: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-sm-3 {
+      margin: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-sm-3,
+    #samsung_m_00 #samsung_m_01 .sam_my-sm-3 {
+      margin-top: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-sm-3,
+    #samsung_m_00 #samsung_m_01 .sam_mx-sm-3 {
+      margin-right: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-sm-3,
+    #samsung_m_00 #samsung_m_01 .sam_my-sm-3 {
+      margin-bottom: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-sm-3,
+    #samsung_m_00 #samsung_m_01 .sam_mx-sm-3 {
+      margin-left: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-sm-4 {
+      margin: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-sm-4,
+    #samsung_m_00 #samsung_m_01 .sam_my-sm-4 {
+      margin-top: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-sm-4,
+    #samsung_m_00 #samsung_m_01 .sam_mx-sm-4 {
+      margin-right: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-sm-4,
+    #samsung_m_00 #samsung_m_01 .sam_my-sm-4 {
+      margin-bottom: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-sm-4,
+    #samsung_m_00 #samsung_m_01 .sam_mx-sm-4 {
+      margin-left: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-sm-5 {
+      margin: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-sm-5,
+    #samsung_m_00 #samsung_m_01 .sam_my-sm-5 {
+      margin-top: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-sm-5,
+    #samsung_m_00 #samsung_m_01 .sam_mx-sm-5 {
+      margin-right: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-sm-5,
+    #samsung_m_00 #samsung_m_01 .sam_my-sm-5 {
+      margin-bottom: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-sm-5,
+    #samsung_m_00 #samsung_m_01 .sam_mx-sm-5 {
+      margin-left: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_p-sm-0 {
+      padding: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pt-sm-0,
+    #samsung_m_00 #samsung_m_01 .sam_py-sm-0 {
+      padding-top: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pr-sm-0,
+    #samsung_m_00 #samsung_m_01 .sam_px-sm-0 {
+      padding-right: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pb-sm-0,
+    #samsung_m_00 #samsung_m_01 .sam_py-sm-0 {
+      padding-bottom: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pl-sm-0,
+    #samsung_m_00 #samsung_m_01 .sam_px-sm-0 {
+      padding-left: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_p-sm-1 {
+      padding: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pt-sm-1,
+    #samsung_m_00 #samsung_m_01 .sam_py-sm-1 {
+      padding-top: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pr-sm-1,
+    #samsung_m_00 #samsung_m_01 .sam_px-sm-1 {
+      padding-right: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pb-sm-1,
+    #samsung_m_00 #samsung_m_01 .sam_py-sm-1 {
+      padding-bottom: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pl-sm-1,
+    #samsung_m_00 #samsung_m_01 .sam_px-sm-1 {
+      padding-left: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_p-sm-2 {
+      padding: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pt-sm-2,
+    #samsung_m_00 #samsung_m_01 .sam_py-sm-2 {
+      padding-top: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pr-sm-2,
+    #samsung_m_00 #samsung_m_01 .sam_px-sm-2 {
+      padding-right: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pb-sm-2,
+    #samsung_m_00 #samsung_m_01 .sam_py-sm-2 {
+      padding-bottom: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pl-sm-2,
+    #samsung_m_00 #samsung_m_01 .sam_px-sm-2 {
+      padding-left: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_p-sm-3 {
+      padding: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pt-sm-3,
+    #samsung_m_00 #samsung_m_01 .sam_py-sm-3 {
+      padding-top: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pr-sm-3,
+    #samsung_m_00 #samsung_m_01 .sam_px-sm-3 {
+      padding-right: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pb-sm-3,
+    #samsung_m_00 #samsung_m_01 .sam_py-sm-3 {
+      padding-bottom: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pl-sm-3,
+    #samsung_m_00 #samsung_m_01 .sam_px-sm-3 {
+      padding-left: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_p-sm-4 {
+      padding: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pt-sm-4,
+    #samsung_m_00 #samsung_m_01 .sam_py-sm-4 {
+      padding-top: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pr-sm-4,
+    #samsung_m_00 #samsung_m_01 .sam_px-sm-4 {
+      padding-right: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pb-sm-4,
+    #samsung_m_00 #samsung_m_01 .sam_py-sm-4 {
+      padding-bottom: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pl-sm-4,
+    #samsung_m_00 #samsung_m_01 .sam_px-sm-4 {
+      padding-left: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_p-sm-5 {
+      padding: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pt-sm-5,
+    #samsung_m_00 #samsung_m_01 .sam_py-sm-5 {
+      padding-top: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pr-sm-5,
+    #samsung_m_00 #samsung_m_01 .sam_px-sm-5 {
+      padding-right: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pb-sm-5,
+    #samsung_m_00 #samsung_m_01 .sam_py-sm-5 {
+      padding-bottom: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pl-sm-5,
+    #samsung_m_00 #samsung_m_01 .sam_px-sm-5 {
+      padding-left: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-sm-n1 {
+      margin: -.25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-sm-n1,
+    #samsung_m_00 #samsung_m_01 .sam_my-sm-n1 {
+      margin-top: -.25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-sm-n1,
+    #samsung_m_00 #samsung_m_01 .sam_mx-sm-n1 {
+      margin-right: -.25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-sm-n1,
+    #samsung_m_00 #samsung_m_01 .sam_my-sm-n1 {
+      margin-bottom: -.25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-sm-n1,
+    #samsung_m_00 #samsung_m_01 .sam_mx-sm-n1 {
+      margin-left: -.25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-sm-n2 {
+      margin: -.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-sm-n2,
+    #samsung_m_00 #samsung_m_01 .sam_my-sm-n2 {
+      margin-top: -.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-sm-n2,
+    #samsung_m_00 #samsung_m_01 .sam_mx-sm-n2 {
+      margin-right: -.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-sm-n2,
+    #samsung_m_00 #samsung_m_01 .sam_my-sm-n2 {
+      margin-bottom: -.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-sm-n2,
+    #samsung_m_00 #samsung_m_01 .sam_mx-sm-n2 {
+      margin-left: -.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-sm-n3 {
+      margin: -1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-sm-n3,
+    #samsung_m_00 #samsung_m_01 .sam_my-sm-n3 {
+      margin-top: -1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-sm-n3,
+    #samsung_m_00 #samsung_m_01 .sam_mx-sm-n3 {
+      margin-right: -1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-sm-n3,
+    #samsung_m_00 #samsung_m_01 .sam_my-sm-n3 {
+      margin-bottom: -1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-sm-n3,
+    #samsung_m_00 #samsung_m_01 .sam_mx-sm-n3 {
+      margin-left: -1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-sm-n4 {
+      margin: -1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-sm-n4,
+    #samsung_m_00 #samsung_m_01 .sam_my-sm-n4 {
+      margin-top: -1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-sm-n4,
+    #samsung_m_00 #samsung_m_01 .sam_mx-sm-n4 {
+      margin-right: -1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-sm-n4,
+    #samsung_m_00 #samsung_m_01 .sam_my-sm-n4 {
+      margin-bottom: -1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-sm-n4,
+    #samsung_m_00 #samsung_m_01 .sam_mx-sm-n4 {
+      margin-left: -1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-sm-n5 {
+      margin: -3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-sm-n5,
+    #samsung_m_00 #samsung_m_01 .sam_my-sm-n5 {
+      margin-top: -3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-sm-n5,
+    #samsung_m_00 #samsung_m_01 .sam_mx-sm-n5 {
+      margin-right: -3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-sm-n5,
+    #samsung_m_00 #samsung_m_01 .sam_my-sm-n5 {
+      margin-bottom: -3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-sm-n5,
+    #samsung_m_00 #samsung_m_01 .sam_mx-sm-n5 {
+      margin-left: -3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-sm-auto {
+      margin: auto !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-sm-auto,
+    #samsung_m_00 #samsung_m_01 .sam_my-sm-auto {
+      margin-top: auto !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-sm-auto,
+    #samsung_m_00 #samsung_m_01 .sam_mx-sm-auto {
+      margin-right: auto !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-sm-auto,
+    #samsung_m_00 #samsung_m_01 .sam_my-sm-auto {
+      margin-bottom: auto !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-sm-auto,
+    #samsung_m_00 #samsung_m_01 .sam_mx-sm-auto {
+      margin-left: auto !important; } }
+  @media (min-width: 800px) {
+    #samsung_m_00 #samsung_m_01 .sam_m-md-0 {
+      margin: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-md-0,
+    #samsung_m_00 #samsung_m_01 .sam_my-md-0 {
+      margin-top: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-md-0,
+    #samsung_m_00 #samsung_m_01 .sam_mx-md-0 {
+      margin-right: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-md-0,
+    #samsung_m_00 #samsung_m_01 .sam_my-md-0 {
+      margin-bottom: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-md-0,
+    #samsung_m_00 #samsung_m_01 .sam_mx-md-0 {
+      margin-left: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-md-1 {
+      margin: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-md-1,
+    #samsung_m_00 #samsung_m_01 .sam_my-md-1 {
+      margin-top: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-md-1,
+    #samsung_m_00 #samsung_m_01 .sam_mx-md-1 {
+      margin-right: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-md-1,
+    #samsung_m_00 #samsung_m_01 .sam_my-md-1 {
+      margin-bottom: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-md-1,
+    #samsung_m_00 #samsung_m_01 .sam_mx-md-1 {
+      margin-left: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-md-2 {
+      margin: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-md-2,
+    #samsung_m_00 #samsung_m_01 .sam_my-md-2 {
+      margin-top: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-md-2,
+    #samsung_m_00 #samsung_m_01 .sam_mx-md-2 {
+      margin-right: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-md-2,
+    #samsung_m_00 #samsung_m_01 .sam_my-md-2 {
+      margin-bottom: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-md-2,
+    #samsung_m_00 #samsung_m_01 .sam_mx-md-2 {
+      margin-left: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-md-3 {
+      margin: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-md-3,
+    #samsung_m_00 #samsung_m_01 .sam_my-md-3 {
+      margin-top: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-md-3,
+    #samsung_m_00 #samsung_m_01 .sam_mx-md-3 {
+      margin-right: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-md-3,
+    #samsung_m_00 #samsung_m_01 .sam_my-md-3 {
+      margin-bottom: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-md-3,
+    #samsung_m_00 #samsung_m_01 .sam_mx-md-3 {
+      margin-left: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-md-4 {
+      margin: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-md-4,
+    #samsung_m_00 #samsung_m_01 .sam_my-md-4 {
+      margin-top: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-md-4,
+    #samsung_m_00 #samsung_m_01 .sam_mx-md-4 {
+      margin-right: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-md-4,
+    #samsung_m_00 #samsung_m_01 .sam_my-md-4 {
+      margin-bottom: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-md-4,
+    #samsung_m_00 #samsung_m_01 .sam_mx-md-4 {
+      margin-left: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-md-5 {
+      margin: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-md-5,
+    #samsung_m_00 #samsung_m_01 .sam_my-md-5 {
+      margin-top: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-md-5,
+    #samsung_m_00 #samsung_m_01 .sam_mx-md-5 {
+      margin-right: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-md-5,
+    #samsung_m_00 #samsung_m_01 .sam_my-md-5 {
+      margin-bottom: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-md-5,
+    #samsung_m_00 #samsung_m_01 .sam_mx-md-5 {
+      margin-left: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_p-md-0 {
+      padding: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pt-md-0,
+    #samsung_m_00 #samsung_m_01 .sam_py-md-0 {
+      padding-top: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pr-md-0,
+    #samsung_m_00 #samsung_m_01 .sam_px-md-0 {
+      padding-right: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pb-md-0,
+    #samsung_m_00 #samsung_m_01 .sam_py-md-0 {
+      padding-bottom: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pl-md-0,
+    #samsung_m_00 #samsung_m_01 .sam_px-md-0 {
+      padding-left: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_p-md-1 {
+      padding: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pt-md-1,
+    #samsung_m_00 #samsung_m_01 .sam_py-md-1 {
+      padding-top: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pr-md-1,
+    #samsung_m_00 #samsung_m_01 .sam_px-md-1 {
+      padding-right: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pb-md-1,
+    #samsung_m_00 #samsung_m_01 .sam_py-md-1 {
+      padding-bottom: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pl-md-1,
+    #samsung_m_00 #samsung_m_01 .sam_px-md-1 {
+      padding-left: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_p-md-2 {
+      padding: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pt-md-2,
+    #samsung_m_00 #samsung_m_01 .sam_py-md-2 {
+      padding-top: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pr-md-2,
+    #samsung_m_00 #samsung_m_01 .sam_px-md-2 {
+      padding-right: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pb-md-2,
+    #samsung_m_00 #samsung_m_01 .sam_py-md-2 {
+      padding-bottom: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pl-md-2,
+    #samsung_m_00 #samsung_m_01 .sam_px-md-2 {
+      padding-left: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_p-md-3 {
+      padding: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pt-md-3,
+    #samsung_m_00 #samsung_m_01 .sam_py-md-3 {
+      padding-top: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pr-md-3,
+    #samsung_m_00 #samsung_m_01 .sam_px-md-3 {
+      padding-right: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pb-md-3,
+    #samsung_m_00 #samsung_m_01 .sam_py-md-3 {
+      padding-bottom: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pl-md-3,
+    #samsung_m_00 #samsung_m_01 .sam_px-md-3 {
+      padding-left: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_p-md-4 {
+      padding: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pt-md-4,
+    #samsung_m_00 #samsung_m_01 .sam_py-md-4 {
+      padding-top: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pr-md-4,
+    #samsung_m_00 #samsung_m_01 .sam_px-md-4 {
+      padding-right: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pb-md-4,
+    #samsung_m_00 #samsung_m_01 .sam_py-md-4 {
+      padding-bottom: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pl-md-4,
+    #samsung_m_00 #samsung_m_01 .sam_px-md-4 {
+      padding-left: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_p-md-5 {
+      padding: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pt-md-5,
+    #samsung_m_00 #samsung_m_01 .sam_py-md-5 {
+      padding-top: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pr-md-5,
+    #samsung_m_00 #samsung_m_01 .sam_px-md-5 {
+      padding-right: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pb-md-5,
+    #samsung_m_00 #samsung_m_01 .sam_py-md-5 {
+      padding-bottom: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pl-md-5,
+    #samsung_m_00 #samsung_m_01 .sam_px-md-5 {
+      padding-left: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-md-n1 {
+      margin: -.25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-md-n1,
+    #samsung_m_00 #samsung_m_01 .sam_my-md-n1 {
+      margin-top: -.25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-md-n1,
+    #samsung_m_00 #samsung_m_01 .sam_mx-md-n1 {
+      margin-right: -.25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-md-n1,
+    #samsung_m_00 #samsung_m_01 .sam_my-md-n1 {
+      margin-bottom: -.25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-md-n1,
+    #samsung_m_00 #samsung_m_01 .sam_mx-md-n1 {
+      margin-left: -.25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-md-n2 {
+      margin: -.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-md-n2,
+    #samsung_m_00 #samsung_m_01 .sam_my-md-n2 {
+      margin-top: -.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-md-n2,
+    #samsung_m_00 #samsung_m_01 .sam_mx-md-n2 {
+      margin-right: -.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-md-n2,
+    #samsung_m_00 #samsung_m_01 .sam_my-md-n2 {
+      margin-bottom: -.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-md-n2,
+    #samsung_m_00 #samsung_m_01 .sam_mx-md-n2 {
+      margin-left: -.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-md-n3 {
+      margin: -1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-md-n3,
+    #samsung_m_00 #samsung_m_01 .sam_my-md-n3 {
+      margin-top: -1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-md-n3,
+    #samsung_m_00 #samsung_m_01 .sam_mx-md-n3 {
+      margin-right: -1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-md-n3,
+    #samsung_m_00 #samsung_m_01 .sam_my-md-n3 {
+      margin-bottom: -1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-md-n3,
+    #samsung_m_00 #samsung_m_01 .sam_mx-md-n3 {
+      margin-left: -1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-md-n4 {
+      margin: -1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-md-n4,
+    #samsung_m_00 #samsung_m_01 .sam_my-md-n4 {
+      margin-top: -1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-md-n4,
+    #samsung_m_00 #samsung_m_01 .sam_mx-md-n4 {
+      margin-right: -1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-md-n4,
+    #samsung_m_00 #samsung_m_01 .sam_my-md-n4 {
+      margin-bottom: -1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-md-n4,
+    #samsung_m_00 #samsung_m_01 .sam_mx-md-n4 {
+      margin-left: -1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-md-n5 {
+      margin: -3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-md-n5,
+    #samsung_m_00 #samsung_m_01 .sam_my-md-n5 {
+      margin-top: -3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-md-n5,
+    #samsung_m_00 #samsung_m_01 .sam_mx-md-n5 {
+      margin-right: -3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-md-n5,
+    #samsung_m_00 #samsung_m_01 .sam_my-md-n5 {
+      margin-bottom: -3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-md-n5,
+    #samsung_m_00 #samsung_m_01 .sam_mx-md-n5 {
+      margin-left: -3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-md-auto {
+      margin: auto !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-md-auto,
+    #samsung_m_00 #samsung_m_01 .sam_my-md-auto {
+      margin-top: auto !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-md-auto,
+    #samsung_m_00 #samsung_m_01 .sam_mx-md-auto {
+      margin-right: auto !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-md-auto,
+    #samsung_m_00 #samsung_m_01 .sam_my-md-auto {
+      margin-bottom: auto !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-md-auto,
+    #samsung_m_00 #samsung_m_01 .sam_mx-md-auto {
+      margin-left: auto !important; } }
+  @media (min-width: 960px) {
+    #samsung_m_00 #samsung_m_01 .sam_m-lg-0 {
+      margin: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-lg-0,
+    #samsung_m_00 #samsung_m_01 .sam_my-lg-0 {
+      margin-top: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-lg-0,
+    #samsung_m_00 #samsung_m_01 .sam_mx-lg-0 {
+      margin-right: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-lg-0,
+    #samsung_m_00 #samsung_m_01 .sam_my-lg-0 {
+      margin-bottom: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-lg-0,
+    #samsung_m_00 #samsung_m_01 .sam_mx-lg-0 {
+      margin-left: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-lg-1 {
+      margin: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-lg-1,
+    #samsung_m_00 #samsung_m_01 .sam_my-lg-1 {
+      margin-top: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-lg-1,
+    #samsung_m_00 #samsung_m_01 .sam_mx-lg-1 {
+      margin-right: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-lg-1,
+    #samsung_m_00 #samsung_m_01 .sam_my-lg-1 {
+      margin-bottom: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-lg-1,
+    #samsung_m_00 #samsung_m_01 .sam_mx-lg-1 {
+      margin-left: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-lg-2 {
+      margin: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-lg-2,
+    #samsung_m_00 #samsung_m_01 .sam_my-lg-2 {
+      margin-top: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-lg-2,
+    #samsung_m_00 #samsung_m_01 .sam_mx-lg-2 {
+      margin-right: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-lg-2,
+    #samsung_m_00 #samsung_m_01 .sam_my-lg-2 {
+      margin-bottom: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-lg-2,
+    #samsung_m_00 #samsung_m_01 .sam_mx-lg-2 {
+      margin-left: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-lg-3 {
+      margin: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-lg-3,
+    #samsung_m_00 #samsung_m_01 .sam_my-lg-3 {
+      margin-top: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-lg-3,
+    #samsung_m_00 #samsung_m_01 .sam_mx-lg-3 {
+      margin-right: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-lg-3,
+    #samsung_m_00 #samsung_m_01 .sam_my-lg-3 {
+      margin-bottom: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-lg-3,
+    #samsung_m_00 #samsung_m_01 .sam_mx-lg-3 {
+      margin-left: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-lg-4 {
+      margin: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-lg-4,
+    #samsung_m_00 #samsung_m_01 .sam_my-lg-4 {
+      margin-top: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-lg-4,
+    #samsung_m_00 #samsung_m_01 .sam_mx-lg-4 {
+      margin-right: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-lg-4,
+    #samsung_m_00 #samsung_m_01 .sam_my-lg-4 {
+      margin-bottom: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-lg-4,
+    #samsung_m_00 #samsung_m_01 .sam_mx-lg-4 {
+      margin-left: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-lg-5 {
+      margin: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-lg-5,
+    #samsung_m_00 #samsung_m_01 .sam_my-lg-5 {
+      margin-top: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-lg-5,
+    #samsung_m_00 #samsung_m_01 .sam_mx-lg-5 {
+      margin-right: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-lg-5,
+    #samsung_m_00 #samsung_m_01 .sam_my-lg-5 {
+      margin-bottom: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-lg-5,
+    #samsung_m_00 #samsung_m_01 .sam_mx-lg-5 {
+      margin-left: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_p-lg-0 {
+      padding: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pt-lg-0,
+    #samsung_m_00 #samsung_m_01 .sam_py-lg-0 {
+      padding-top: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pr-lg-0,
+    #samsung_m_00 #samsung_m_01 .sam_px-lg-0 {
+      padding-right: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pb-lg-0,
+    #samsung_m_00 #samsung_m_01 .sam_py-lg-0 {
+      padding-bottom: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pl-lg-0,
+    #samsung_m_00 #samsung_m_01 .sam_px-lg-0 {
+      padding-left: 0 !important; }
+    #samsung_m_00 #samsung_m_01 .sam_p-lg-1 {
+      padding: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pt-lg-1,
+    #samsung_m_00 #samsung_m_01 .sam_py-lg-1 {
+      padding-top: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pr-lg-1,
+    #samsung_m_00 #samsung_m_01 .sam_px-lg-1 {
+      padding-right: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pb-lg-1,
+    #samsung_m_00 #samsung_m_01 .sam_py-lg-1 {
+      padding-bottom: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pl-lg-1,
+    #samsung_m_00 #samsung_m_01 .sam_px-lg-1 {
+      padding-left: .25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_p-lg-2 {
+      padding: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pt-lg-2,
+    #samsung_m_00 #samsung_m_01 .sam_py-lg-2 {
+      padding-top: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pr-lg-2,
+    #samsung_m_00 #samsung_m_01 .sam_px-lg-2 {
+      padding-right: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pb-lg-2,
+    #samsung_m_00 #samsung_m_01 .sam_py-lg-2 {
+      padding-bottom: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pl-lg-2,
+    #samsung_m_00 #samsung_m_01 .sam_px-lg-2 {
+      padding-left: .5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_p-lg-3 {
+      padding: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pt-lg-3,
+    #samsung_m_00 #samsung_m_01 .sam_py-lg-3 {
+      padding-top: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pr-lg-3,
+    #samsung_m_00 #samsung_m_01 .sam_px-lg-3 {
+      padding-right: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pb-lg-3,
+    #samsung_m_00 #samsung_m_01 .sam_py-lg-3 {
+      padding-bottom: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pl-lg-3,
+    #samsung_m_00 #samsung_m_01 .sam_px-lg-3 {
+      padding-left: 1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_p-lg-4 {
+      padding: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pt-lg-4,
+    #samsung_m_00 #samsung_m_01 .sam_py-lg-4 {
+      padding-top: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pr-lg-4,
+    #samsung_m_00 #samsung_m_01 .sam_px-lg-4 {
+      padding-right: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pb-lg-4,
+    #samsung_m_00 #samsung_m_01 .sam_py-lg-4 {
+      padding-bottom: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pl-lg-4,
+    #samsung_m_00 #samsung_m_01 .sam_px-lg-4 {
+      padding-left: 1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_p-lg-5 {
+      padding: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pt-lg-5,
+    #samsung_m_00 #samsung_m_01 .sam_py-lg-5 {
+      padding-top: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pr-lg-5,
+    #samsung_m_00 #samsung_m_01 .sam_px-lg-5 {
+      padding-right: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pb-lg-5,
+    #samsung_m_00 #samsung_m_01 .sam_py-lg-5 {
+      padding-bottom: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_pl-lg-5,
+    #samsung_m_00 #samsung_m_01 .sam_px-lg-5 {
+      padding-left: 3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-lg-n1 {
+      margin: -.25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-lg-n1,
+    #samsung_m_00 #samsung_m_01 .sam_my-lg-n1 {
+      margin-top: -.25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-lg-n1,
+    #samsung_m_00 #samsung_m_01 .sam_mx-lg-n1 {
+      margin-right: -.25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-lg-n1,
+    #samsung_m_00 #samsung_m_01 .sam_my-lg-n1 {
+      margin-bottom: -.25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-lg-n1,
+    #samsung_m_00 #samsung_m_01 .sam_mx-lg-n1 {
+      margin-left: -.25rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-lg-n2 {
+      margin: -.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-lg-n2,
+    #samsung_m_00 #samsung_m_01 .sam_my-lg-n2 {
+      margin-top: -.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-lg-n2,
+    #samsung_m_00 #samsung_m_01 .sam_mx-lg-n2 {
+      margin-right: -.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-lg-n2,
+    #samsung_m_00 #samsung_m_01 .sam_my-lg-n2 {
+      margin-bottom: -.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-lg-n2,
+    #samsung_m_00 #samsung_m_01 .sam_mx-lg-n2 {
+      margin-left: -.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-lg-n3 {
+      margin: -1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-lg-n3,
+    #samsung_m_00 #samsung_m_01 .sam_my-lg-n3 {
+      margin-top: -1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-lg-n3,
+    #samsung_m_00 #samsung_m_01 .sam_mx-lg-n3 {
+      margin-right: -1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-lg-n3,
+    #samsung_m_00 #samsung_m_01 .sam_my-lg-n3 {
+      margin-bottom: -1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-lg-n3,
+    #samsung_m_00 #samsung_m_01 .sam_mx-lg-n3 {
+      margin-left: -1rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-lg-n4 {
+      margin: -1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-lg-n4,
+    #samsung_m_00 #samsung_m_01 .sam_my-lg-n4 {
+      margin-top: -1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-lg-n4,
+    #samsung_m_00 #samsung_m_01 .sam_mx-lg-n4 {
+      margin-right: -1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-lg-n4,
+    #samsung_m_00 #samsung_m_01 .sam_my-lg-n4 {
+      margin-bottom: -1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-lg-n4,
+    #samsung_m_00 #samsung_m_01 .sam_mx-lg-n4 {
+      margin-left: -1.5rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-lg-n5 {
+      margin: -3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-lg-n5,
+    #samsung_m_00 #samsung_m_01 .sam_my-lg-n5 {
+      margin-top: -3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-lg-n5,
+    #samsung_m_00 #samsung_m_01 .sam_mx-lg-n5 {
+      margin-right: -3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-lg-n5,
+    #samsung_m_00 #samsung_m_01 .sam_my-lg-n5 {
+      margin-bottom: -3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-lg-n5,
+    #samsung_m_00 #samsung_m_01 .sam_mx-lg-n5 {
+      margin-left: -3rem !important; }
+    #samsung_m_00 #samsung_m_01 .sam_m-lg-auto {
+      margin: auto !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mt-lg-auto,
+    #samsung_m_00 #samsung_m_01 .sam_my-lg-auto {
+      margin-top: auto !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mr-lg-auto,
+    #samsung_m_00 #samsung_m_01 .sam_mx-lg-auto {
+      margin-right: auto !important; }
+    #samsung_m_00 #samsung_m_01 .sam_mb-lg-auto,
+    #samsung_m_00 #samsung_m_01 .sam_my-lg-auto {
+      margin-bottom: auto !important; }
+    #samsung_m_00 #samsung_m_01 .sam_ml-lg-auto,
+    #samsung_m_00 #samsung_m_01 .sam_mx-lg-auto {
+      margin-left: auto !important; } }
+  #samsung_m_00 #samsung_m_01 .sam_text-justify {
+    text-align: justify !important; }
+  #samsung_m_00 #samsung_m_01 .sam_text-wrap {
+    white-space: normal !important; }
+  #samsung_m_00 #samsung_m_01 .sam_text-nowrap {
+    white-space: nowrap !important; }
+  #samsung_m_00 #samsung_m_01 .sam_text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+  #samsung_m_00 #samsung_m_01 .sam_text-left {
+    text-align: left !important; }
+  #samsung_m_00 #samsung_m_01 .sam_text-right {
+    text-align: right !important; }
+  #samsung_m_00 #samsung_m_01 .sam_text-center {
+    text-align: center !important; }
+  @media (min-width: 480px) {
+    #samsung_m_00 #samsung_m_01 .sam_text-sm-left {
+      text-align: left !important; }
+    #samsung_m_00 #samsung_m_01 .sam_text-sm-right {
+      text-align: right !important; }
+    #samsung_m_00 #samsung_m_01 .sam_text-sm-center {
+      text-align: center !important; } }
+  @media (min-width: 800px) {
+    #samsung_m_00 #samsung_m_01 .sam_text-md-left {
+      text-align: left !important; }
+    #samsung_m_00 #samsung_m_01 .sam_text-md-right {
+      text-align: right !important; }
+    #samsung_m_00 #samsung_m_01 .sam_text-md-center {
+      text-align: center !important; } }
+  @media (min-width: 992px) {
+    #samsung_m_00 #samsung_m_01 .sam_text-lg-left {
+      text-align: left !important; }
+    #samsung_m_00 #samsung_m_01 .sam_text-lg-right {
+      text-align: right !important; }
+    #samsung_m_00 #samsung_m_01 .sam_text-lg-center {
+      text-align: center !important; } }
+  @media (min-width: 960px) {
+    #samsung_m_00 #samsung_m_01 .sam_text-lg-left {
+      text-align: left !important; }
+    #samsung_m_00 #samsung_m_01 .sam_text-lg-right {
+      text-align: right !important; }
+    #samsung_m_00 #samsung_m_01 .sam_text-lg-center {
+      text-align: center !important; } }
+  #samsung_m_00 #samsung_m_01 .sam_text-lowercase {
+    text-transform: lowercase !important; }
+  #samsung_m_00 #samsung_m_01 .sam_text-uppercase {
+    text-transform: uppercase !important; }
+  #samsung_m_00 #samsung_m_01 .sam_text-capitalize {
+    text-transform: capitalize !important; }
+  #samsung_m_00 #samsung_m_01 .sam_font-weight-light {
+    font-weight: 300 !important; }
+  #samsung_m_00 #samsung_m_01 .sam_font-weight-lighter {
+    font-weight: lighter !important; }
+  #samsung_m_00 #samsung_m_01 .sam_font-weight-normal {
+    font-weight: 400 !important; }
+  #samsung_m_00 #samsung_m_01 .sam_font-weight-bold {
+    font-weight: 700 !important; }
+  #samsung_m_00 #samsung_m_01 .sam_font-weight-bolder {
+    font-weight: bolder !important; }
+  #samsung_m_00 #samsung_m_01 .sam_font-italic {
+    font-style: italic !important; }
+  #samsung_m_00 #samsung_m_01 .sam_text-hide {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0; }
+  #samsung_m_00 #samsung_m_01 .sam_text-decoration-none {
+    text-decoration: none !important; }
+  #samsung_m_00 #samsung_m_01 .sam_text-reset {
+    color: inherit !important; }
+  #samsung_m_00 #samsung_m_01 .sam_visible {
+    visibility: visible !important; }
+  #samsung_m_00 #samsung_m_01 .sam_invisible {
+    visibility: hidden !important; }
+  #samsung_m_00 #samsung_m_01 .sam_text-center {
+    text-align: center; }
+  #samsung_m_00 #samsung_m_01 .sam_text-right {
+    text-align: right; }
+  #samsung_m_00 #samsung_m_01 .sam_seperator-20 {
+    height: 20px;
+    clear: both; }
+  #samsung_m_00 #samsung_m_01 .sam_seperator-30 {
+    height: 30px;
+    clear: both; }
+  #samsung_m_00 #samsung_m_01 .sam_img-center {
+    margin: 0 auto;
+    display: block; }
+  #samsung_m_00 #samsung_m_01 .sam_relative {
+    position: relative; }
+  #samsung_m_00 #samsung_m_01 .sam_display-inline-block {
+    display: inline-block; }
+  #samsung_m_00 #samsung_m_01 .sam_vertical-center,
+  #samsung_m_00 #samsung_m_01 .sam_center-vertical {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    -ms-align-items: center; }
+    @media (max-width: 479px) {
+      #samsung_m_00 #samsung_m_01 .sam_vertical-center,
+      #samsung_m_00 #samsung_m_01 .sam_center-vertical {
+        display: block; } }
+    @media (max-width: 479px) {
+      #samsung_m_00 #samsung_m_01 .sam_vertical-center,
+      #samsung_m_00 #samsung_m_01 .sam_center-vertical {
+        display: block; } }
+  #samsung_m_00 #samsung_m_01 .sam_flex-wrapper {
+    display: flex; }
+  #samsung_m_00 #samsung_m_01 .sam_flex-end {
+    align-self: flex-end; }
+  #samsung_m_00 #samsung_m_01 .sam_row.sam_is-flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap; }
+  #samsung_m_00 #samsung_m_01 .sam_row.sam_is-flex > [class*='sam_col-'] {
+    display: flex;
+    flex-direction: column; }
+  #samsung_m_00 #samsung_m_01 .sam_row.sam_is-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  #samsung_m_00 #samsung_m_01 .sam_row.sam_is-flex > [class*='sam_col-'] {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  @media (max-width: 799px) {
+    #samsung_m_00 #samsung_m_01 .sam_text-center-md {
+      text-align: center; }
+    #samsung_m_00 #samsung_m_01 .sam_center-block-md {
+      display: block;
+      margin: 0 auto;
+      float: none !important; }
+    #samsung_m_00 #samsung_m_01 .sam_img-responsive-md {
+      display: block;
+      max-width: 100%;
+      height: auto; } }
+  @media (max-width: 479px) {
+    #samsung_m_00 #samsung_m_01 .sam_text-center-sm {
+      text-align: center; }
+    #samsung_m_00 #samsung_m_01 .sam_center-block-sm {
+      display: block;
+      margin: 0 auto;
+      float: none !important; }
+    #samsung_m_00 #samsung_m_01 .sam_img-responsive-sm {
+      display: block;
+      max-width: 100%;
+      height: auto; } }
+  @media (max-width: 479px) {
+    #samsung_m_00 #samsung_m_01 .sam_text-center-xs {
+      text-align: center; }
+    #samsung_m_00 #samsung_m_01 .sam_center-block-xs {
+      display: block;
+      margin: 0 auto;
+      float: none !important; }
+    #samsung_m_00 #samsung_m_01 .sam_img-responsive-xs {
+      display: block;
+      max-width: 100%;
+      height: auto; } }
+  #samsung_m_00 #samsung_m_01 img {
+    max-width: 100%; }
+  #samsung_m_00 #samsung_m_01 .sam_effect {
+    opacity: 0;
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+    -webkit-transition: all 0.5s cubic-bezier(0, 0, 0.58, 1);
+    transition: all 0.5s cubic-bezier(0, 0, 0.58, 1); }
+    #samsung_m_00 #samsung_m_01 .sam_effect h3 {
+      opacity: 0;
+      -webkit-transform: translateY(50px);
+      transform: translateY(50px);
+      -webkit-transition: all 0.5s cubic-bezier(0, 0, 0.58, 1);
+      transition: all 0.5s cubic-bezier(0, 0, 0.58, 1); }
+    #samsung_m_00 #samsung_m_01 .sam_effect img {
+      opacity: 0;
+      -webkit-transform: translateY(50px);
+      transform: translateY(50px);
+      -webkit-transition: all 0.6s cubic-bezier(0, 0, 0.58, 1);
+      transition: all 0.6s cubic-bezier(0, 0, 0.58, 1); }
+  #samsung_m_00 #samsung_m_01 .sam_effect_active {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: all 0.5s cubic-bezier(0, 0, 0.58, 1);
+    transition: all 0.5s cubic-bezier(0, 0, 0.58, 1); }
+    #samsung_m_00 #samsung_m_01 .sam_effect_active h3 {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      -webkit-transition: all 0.5s cubic-bezier(0, 0, 0.58, 1);
+      transition: all 0.5s cubic-bezier(0, 0, 0.58, 1); }
+    #samsung_m_00 #samsung_m_01 .sam_effect_active img {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      -webkit-transition: all 0.6s cubic-bezier(0, 0, 0.58, 1);
+      transition: all 0.6s cubic-bezier(0, 0, 0.58, 1); }
+  #samsung_m_00 #samsung_m_01 .sam_container {
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0; }
+  #samsung_m_00 #samsung_m_01 .sam_btn {
+    background: none;
+    line-height: 28px;
+    padding-top: 14px;
+    padding-bottom: 13px;
+    border-radius: 44px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'SamsungOne-700';
+    font-size: 14px;
+    border: 1px solid #fff;
+    letter-spacing: 2.8px;
+    -webkit-transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+    transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+    text-align: center;
+    background: transparent;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 230px; }
+    #samsung_m_00 #samsung_m_01 .sam_btn:hover {
+      color: #000;
+      text-decoration: none;
+      background: #fff;
+      -webkit-transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+      transition: all 0.2s cubic-bezier(0, 0, 0.58, 1); }
+    @media (max-width: 1199px) {
+      #samsung_m_00 #samsung_m_01 .sam_btn {
+        font-size: 12px;
+        width: 200px;
+        padding-top: 10px;
+        padding-bottom: 9px; } }
+    @media (max-width: 959px) {
+      #samsung_m_00 #samsung_m_01 .sam_btn {
+        display: block;
+        width: 60%;
+        margin: 10px auto;
+        font-size: 14px;
+        padding-top: 13px;
+        padding-bottom: 12px; } }
+    @media (max-width: 799px) {
+      #samsung_m_00 #samsung_m_01 .sam_btn {
+        width: 80%; } }
+    #samsung_m_00 #samsung_m_01 .sam_btn--white {
+      background: #fff;
+      color: #000; }
+      #samsung_m_00 #samsung_m_01 .sam_btn--white:hover {
+        color: #fff;
+        background: #000;
+        border: 1px solid #fff; }
+  #samsung_m_00 #samsung_m_01 .sam_heading {
+    font-size: 44px;
+    color: #000;
+    font-family: 'SamsungSharpSans-Bold';
+    padding: 0 20px; }
+    @media (max-width: 1499px) {
+      #samsung_m_00 #samsung_m_01 .sam_heading {
+        font-size: 40px; } }
+    @media (max-width: 1199px) {
+      #samsung_m_00 #samsung_m_01 .sam_heading {
+        font-size: 38px; } }
+    @media (max-width: 959px) {
+      #samsung_m_00 #samsung_m_01 .sam_heading {
+        font-size: 34px; } }
+    @media (max-width: 479px) {
+      #samsung_m_00 #samsung_m_01 .sam_heading {
+        font-size: 30px;
+        padding: 10px; } }
+  #samsung_m_00 #samsung_m_01 .sam_text {
+    font-size: 18px;
+    color: #000;
+    font-family: "SamsungOne-400";
+    padding: 0 20px; }
+    #samsung_m_00 #samsung_m_01 .sam_text span {
+      font-family: "SamsungSharpSans-Bold"; }
+    @media (max-width: 799px) {
+      #samsung_m_00 #samsung_m_01 .sam_text {
+        font-size: 16px; } }
+    @media (max-width: 479px) {
+      #samsung_m_00 #samsung_m_01 .sam_text {
+        padding: 0 10px; } }
+  #samsung_m_00 #samsung_m_01 .sam_kv {
+    position: relative; }
+    #samsung_m_00 #samsung_m_01 .sam_kv-logo {
+      position: absolute;
+      top: 40px;
+      left: 40px;
+      z-index: 2; }
+      @media (max-width: 1499px) {
+        #samsung_m_00 #samsung_m_01 .sam_kv-logo {
+          top: 30px; } }
+      @media (max-width: 1199px) {
+        #samsung_m_00 #samsung_m_01 .sam_kv-logo {
+          top: 20px; } }
+      @media (max-width: 959px) {
+        #samsung_m_00 #samsung_m_01 .sam_kv-logo {
+          top: 30px; } }
+      @media (max-width: 479px) {
+        #samsung_m_00 #samsung_m_01 .sam_kv-logo {
+          width: 150px;
+          left: 30px;
+          top: 25px; } }
+    #samsung_m_00 #samsung_m_01 .sam_kv-logo2 {
+      display: none; }
+      @media (max-width: 959px) {
+        #samsung_m_00 #samsung_m_01 .sam_kv-logo2 {
+          display: block;
+          position: absolute;
+          top: 20px;
+          right: 40px;
+          z-index: 2;
+          max-width: 150px; } }
+  @media (max-width: 959px) and (max-width: 799px) {
+    #samsung_m_00 #samsung_m_01 .sam_kv-logo2 {
+      width: 130px; } }
+  @media (max-width: 959px) and (max-width: 479px) {
+    #samsung_m_00 #samsung_m_01 .sam_kv-logo2 {
+      width: 95px;
+      right: 30px;
+      top: 15px; } }
+    #samsung_m_00 #samsung_m_01 .sam_kv-title {
+      position: relative; }
+      #samsung_m_00 #samsung_m_01 .sam_kv-title-img {
+        max-width: 100%; }
+    #samsung_m_00 #samsung_m_01 .sam_kv-box {
+      background: #000;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      #samsung_m_00 #samsung_m_01 .sam_kv-box img {
+        object-fit: cover; }
+      #samsung_m_00 #samsung_m_01 .sam_kv-box-logo {
+        position: absolute;
+        top: 20px;
+        right: 40px;
+        z-index: 2; }
+        @media (max-width: 1499px) {
+          #samsung_m_00 #samsung_m_01 .sam_kv-box-logo {
+            max-width: 150px; } }
+        @media (max-width: 1199px) {
+          #samsung_m_00 #samsung_m_01 .sam_kv-box-logo {
+            max-width: 100px; } }
+        @media (max-width: 959px) {
+          #samsung_m_00 #samsung_m_01 .sam_kv-box-logo {
+            display: none; } }
+      @media (max-width: 959px) {
+        #samsung_m_00 #samsung_m_01 .sam_kv-box {
+          height: 100%; } }
+    #samsung_m_00 #samsung_m_01 .sam_kv-info {
+      flex: 0 0 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 10px 20px;
+      max-width: 560px; }
+      @media (max-width: 959px) {
+        #samsung_m_00 #samsung_m_01 .sam_kv-info {
+          max-width: 100%;
+          order: -1;
+          padding: 30px 20px; } }
+    #samsung_m_00 #samsung_m_01 .sam_kv-heading {
+      color: #fff;
+      text-transform: uppercase;
+      font-family: "SamsungOne-400";
+      text-align: center;
+      margin-bottom: 40px;
+      letter-spacing: 4px; }
+      #samsung_m_00 #samsung_m_01 .sam_kv-heading span {
+        font-family: "SamsungSharpSans-Bold";
+        letter-spacing: .5px; }
+      @media (max-width: 1499px) {
+        #samsung_m_00 #samsung_m_01 .sam_kv-heading {
+          margin-bottom: 30px; } }
+      @media (max-width: 1499px) {
+        #samsung_m_00 #samsung_m_01 .sam_kv-heading {
+          font-size: 30px; } }
+      @media (max-width: 959px) {
+        #samsung_m_00 #samsung_m_01 .sam_kv-heading {
+          margin-bottom: 20px;
+          font-size: 40px; } }
+      @media (max-width: 799px) {
+        #samsung_m_00 #samsung_m_01 .sam_kv-heading {
+          margin-bottom: 20px;
+          font-size: 36px; } }
+      @media (max-width: 479px) {
+        #samsung_m_00 #samsung_m_01 .sam_kv-heading {
+          font-size: 30px; } }
+    #samsung_m_00 #samsung_m_01 .sam_kv-btns {
+      width: 100%; }
+      #samsung_m_00 #samsung_m_01 .sam_kv-btns .sam_btn--white {
+        margin-left: 10px; }
+        @media (max-width: 959px) {
+          #samsung_m_00 #samsung_m_01 .sam_kv-btns .sam_btn--white {
+            margin-left: auto;
+            margin-top: 20px; } }
+  #samsung_m_00 #samsung_m_01 .sam_section1 {
+    background-color: #fff;
+    padding: 100px 50px; }
+    @media (max-width: 1499px) {
+      #samsung_m_00 #samsung_m_01 .sam_section1 {
+        padding: 70px 50px; } }
+    @media (max-width: 799px) {
+      #samsung_m_00 #samsung_m_01 .sam_section1 {
+        padding: 50px 20px; } }
+    @media (max-width: 479px) {
+      #samsung_m_00 #samsung_m_01 .sam_section1 {
+        padding: 40px 10px; } }
+    #samsung_m_00 #samsung_m_01 .sam_section1--wrapper {
+      max-width: 1490px;
+      margin: 0 auto;
+      display: block; }
+    #samsung_m_00 #samsung_m_01 .sam_section1--text {
+      font-size: 18px;
+      color: #000; }
+      @media (max-width: 1199px) {
+        #samsung_m_00 #samsung_m_01 .sam_section1--text {
+          font-size: 16px; } }
+    #samsung_m_00 #samsung_m_01 .sam_section1--img {
+      min-height: 180px;
+      margin-bottom: 45px;
+      position: relative; }
+      @media (max-width: 799px) {
+        #samsung_m_00 #samsung_m_01 .sam_section1--img {
+          margin-bottom: 25px; } }
+      #samsung_m_00 #samsung_m_01 .sam_section1--img img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 180px;
+        max-height: 180px; }
+        @media (max-width: 959px) {
+          #samsung_m_00 #samsung_m_01 .sam_section1--img img {
+            max-width: 200px;
+            max-height: 200px; } }
+    #samsung_m_00 #samsung_m_01 .sam_section1--box {
+      margin-top: 80px;
+      padding: 25px;
+      text-align: center;
+      border-right: 1px solid #dadada; }
+      @media (max-width: 1499px) {
+        #samsung_m_00 #samsung_m_01 .sam_section1--box {
+          margin-top: 45px;
+          flex-grow: 0;
+          border-right: none; } }
+      @media (max-width: 799px) {
+        #samsung_m_00 #samsung_m_01 .sam_section1--box {
+          margin-top: 20px; } }
+      @media (max-width: 799px) {
+        #samsung_m_00 #samsung_m_01 .sam_section1--box {
+          padding: 10px 50px; } }
+      #samsung_m_00 #samsung_m_01 .sam_section1--box h3 {
+        font-size: 22px;
+        font-family: "SamsungSharpSans-Bold"; }
+    #samsung_m_00 #samsung_m_01 .sam_section1--box:last-of-type {
+      border-right: none; }
+    #samsung_m_00 #samsung_m_01 .sam_section1--circles {
+      padding: 40px 0 50px; }
+      @media (max-width: 799px) {
+        #samsung_m_00 #samsung_m_01 .sam_section1--circles {
+          padding: 20px 0 25px; } }
+    #samsung_m_00 #samsung_m_01 .sam_section1--circle {
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      display: inline-block;
+      cursor: pointer; }
+      @media (max-width: 959px) {
+        #samsung_m_00 #samsung_m_01 .sam_section1--circle {
+          width: 25px;
+          height: 25px;
+          margin: 0 4px; } }
+      @media (max-width: 479px) {
+        #samsung_m_00 #samsung_m_01 .sam_section1--circle {
+          width: 22px;
+          height: 22px;
+          margin: 0 2px; } }
+      #samsung_m_00 #samsung_m_01 .sam_section1--circle_black {
+        background: #000; }
+      #samsung_m_00 #samsung_m_01 .sam_section1--circle_green {
+        background: #036423; }
+      #samsung_m_00 #samsung_m_01 .sam_section1--circle_blue {
+        background: #3355e7; }
+      #samsung_m_00 #samsung_m_01 .sam_section1--circle_pink {
+        background: #f010a4; }
+      #samsung_m_00 #samsung_m_01 .sam_section1--circle_gray {
+        background: #dbdbdb; }
+    #samsung_m_00 #samsung_m_01 .sam_section1_btn {
+      border: 1px solid #000;
+      color: #000; }
+      @media (max-width: 799px) {
+        #samsung_m_00 #samsung_m_01 .sam_section1_btn {
+          padding-top: 11px;
+          padding-bottom: 10px; } }
+      #samsung_m_00 #samsung_m_01 .sam_section1_btn:hover {
+        color: #fff;
+        background: #000; }
+    #samsung_m_00 #samsung_m_01 .sam_section1 .slick-next {
+      right: -25px; }
+      @media (max-width: 959px) {
+        #samsung_m_00 #samsung_m_01 .sam_section1 .slick-next {
+          right: 10px; } }
+    #samsung_m_00 #samsung_m_01 .sam_section1 .slick-prev {
+      left: -25px; }
+      @media (max-width: 959px) {
+        #samsung_m_00 #samsung_m_01 .sam_section1 .slick-prev {
+          left: 10px; } }
+    #samsung_m_00 #samsung_m_01 .sam_section1 .slick-disabled {
+      opacity: .1; }
+    @media (max-width: 479px) {
+      #samsung_m_00 #samsung_m_01 .sam_section1 .slick-arrow {
+        height: 30px;
+        width: 25px; } }
+  #samsung_m_00 #samsung_m_01 .sam_section2 {
+    background-image: url(../img/s2-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 1000px;
+    padding-top: 130px;
+    position: relative; }
+    @media (max-width: 1849px) {
+      #samsung_m_00 #samsung_m_01 .sam_section2 {
+        padding-top: 90px;
+        height: 55vw; } }
+    @media (max-width: 1499px) {
+      #samsung_m_00 #samsung_m_01 .sam_section2 {
+        padding-top: 30px; } }
+    @media (max-width: 1199px) {
+      #samsung_m_00 #samsung_m_01 .sam_section2 {
+        background-image: none;
+        background-color: #c1c2cd;
+        height: auto; } }
+    @media (max-width: 799px) {
+      #samsung_m_00 #samsung_m_01 .sam_section2 {
+        padding-top: 50px; } }
+    @media (max-width: 479px) {
+      #samsung_m_00 #samsung_m_01 .sam_section2 {
+        padding-top: 40px; } }
+    #samsung_m_00 #samsung_m_01 .sam_section2--photo {
+      position: absolute;
+      bottom: 0; }
+      @media (max-width: 1199px) {
+        #samsung_m_00 #samsung_m_01 .sam_section2--photo {
+          position: static; } }
+    #samsung_m_00 #samsung_m_01 .sam_section2--wrapper {
+      max-width: 770px;
+      margin: 0 auto;
+      display: block; }
+    #samsung_m_00 #samsung_m_01 .sam_section2-img {
+      margin-bottom: 20px;
+      max-width: 100%; }
+    #samsung_m_00 #samsung_m_01 .sam_section2-text {
+      line-height: 1.7;
+      margin-top: 30px;
+      margin-bottom: 30px; }
+  #samsung_m_00 #samsung_m_01 .sam_section3 {
+    padding: 120px 50px; }
+    @media (max-width: 1849px) {
+      #samsung_m_00 #samsung_m_01 .sam_section3 {
+        padding: 80px 50px; } }
+    @media (max-width: 1199px) {
+      #samsung_m_00 #samsung_m_01 .sam_section3 {
+        padding: 70px 30px; } }
+    @media (max-width: 799px) {
+      #samsung_m_00 #samsung_m_01 .sam_section3 {
+        padding: 50px 20px; } }
+    @media (max-width: 479px) {
+      #samsung_m_00 #samsung_m_01 .sam_section3 {
+        padding: 40px 10px; } }
+    #samsung_m_00 #samsung_m_01 .sam_section3--wrapper {
+      max-width: 1490px;
+      margin: 0 auto;
+      display: block; }
+    #samsung_m_00 #samsung_m_01 .sam_section3-box {
+      margin-top: 90px;
+      text-align: center; }
+      @media (max-width: 1199px) {
+        #samsung_m_00 #samsung_m_01 .sam_section3-box {
+          margin-top: 60px; } }
+      @media (max-width: 799px) {
+        #samsung_m_00 #samsung_m_01 .sam_section3-box {
+          margin-top: 45px; } }
+      #samsung_m_00 #samsung_m_01 .sam_section3-box-heading {
+        font-size: 22px;
+        font-family: "SamsungSharpSans-Bold";
+        margin: 25px 0; }
+        @media (max-width: 799px) {
+          #samsung_m_00 #samsung_m_01 .sam_section3-box-heading {
+            font-size: 18px; } }
+      @media (max-width: 1199px) {
+        #samsung_m_00 #samsung_m_01 .sam_section3-box img {
+          max-width: 140px; } }
+      @media (max-width: 959px) {
+        #samsung_m_00 #samsung_m_01 .sam_section3-box img {
+          max-width: 120px; } }
+  #samsung_m_00 #samsung_m_01 .sam_section5 .circle,
+  #samsung_m_00 #samsung_m_01 .sam_section6 .circle {
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    background-color: #000;
+    position: relative;
+    margin: 10px auto 0; }
+    @media (max-width: 1199px) {
+      #samsung_m_00 #samsung_m_01 .sam_section5 .circle,
+      #samsung_m_00 #samsung_m_01 .sam_section6 .circle {
+        height: 25px;
+        width: 25px; } }
+    @media (max-width: 959px) {
+      #samsung_m_00 #samsung_m_01 .sam_section5 .circle,
+      #samsung_m_00 #samsung_m_01 .sam_section6 .circle {
+        height: 35px;
+        width: 35px; } }
+    @media (max-width: 799px) {
+      #samsung_m_00 #samsung_m_01 .sam_section5 .circle,
+      #samsung_m_00 #samsung_m_01 .sam_section6 .circle {
+        height: 25px;
+        width: 25px; } }
+    #samsung_m_00 #samsung_m_01 .sam_section5 .circle::after,
+    #samsung_m_00 #samsung_m_01 .sam_section6 .circle::after {
+      content: "";
+      position: absolute;
+      background-image: url(../img/sam_checkmark.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+      width: 15px;
+      height: 10px; }
+      @media (max-width: 1199px) {
+        #samsung_m_00 #samsung_m_01 .sam_section5 .circle::after,
+        #samsung_m_00 #samsung_m_01 .sam_section6 .circle::after {
+          height: 12px;
+          width: 9px; } }
+      @media (max-width: 959px) {
+        #samsung_m_00 #samsung_m_01 .sam_section5 .circle::after,
+        #samsung_m_00 #samsung_m_01 .sam_section6 .circle::after {
+          height: 15px;
+          width: 10px; } }
+      @media (max-width: 799px) {
+        #samsung_m_00 #samsung_m_01 .sam_section5 .circle::after,
+        #samsung_m_00 #samsung_m_01 .sam_section6 .circle::after {
+          height: 12px;
+          width: 9px; } }
+    #samsung_m_00 #samsung_m_01 .sam_section5 .circle-grey,
+    #samsung_m_00 #samsung_m_01 .sam_section6 .circle-grey {
+      background-color: #dbdbdb; }
+  #samsung_m_00 #samsung_m_01 .sam_section5-disclaimer,
+  #samsung_m_00 #samsung_m_01 .sam_section6-disclaimer {
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 12px; }
+    @media (max-width: 1199px) {
+      #samsung_m_00 #samsung_m_01 .sam_section5-disclaimer,
+      #samsung_m_00 #samsung_m_01 .sam_section6-disclaimer {
+        margin-top: 15px; } }
+    @media (max-width: 959px) {
+      #samsung_m_00 #samsung_m_01 .sam_section5-disclaimer,
+      #samsung_m_00 #samsung_m_01 .sam_section6-disclaimer {
+        margin-top: 30px; } }
+  #samsung_m_00 #samsung_m_01 .sam_section5-box,
+  #samsung_m_00 #samsung_m_01 .sam_section6-box,
+  #samsung_m_00 #samsung_m_01 .sam_section7-box,
+  #samsung_m_00 #samsung_m_01 .sam_section8-box,
+  #samsung_m_00 #samsung_m_01 .sam_section9-box {
+    text-align: center;
+    padding: 30px 40px 0; }
+    @media (max-width: 1499px) {
+      #samsung_m_00 #samsung_m_01 .sam_section5-box,
+      #samsung_m_00 #samsung_m_01 .sam_section6-box,
+      #samsung_m_00 #samsung_m_01 .sam_section7-box,
+      #samsung_m_00 #samsung_m_01 .sam_section8-box,
+      #samsung_m_00 #samsung_m_01 .sam_section9-box {
+        padding: 20px; } }
+    @media (max-width: 1199px) {
+      #samsung_m_00 #samsung_m_01 .sam_section5-box,
+      #samsung_m_00 #samsung_m_01 .sam_section6-box,
+      #samsung_m_00 #samsung_m_01 .sam_section7-box,
+      #samsung_m_00 #samsung_m_01 .sam_section8-box,
+      #samsung_m_00 #samsung_m_01 .sam_section9-box {
+        padding: 30px 20px; } }
+    @media (max-width: 959px) {
+      #samsung_m_00 #samsung_m_01 .sam_section5-box,
+      #samsung_m_00 #samsung_m_01 .sam_section6-box,
+      #samsung_m_00 #samsung_m_01 .sam_section7-box,
+      #samsung_m_00 #samsung_m_01 .sam_section8-box,
+      #samsung_m_00 #samsung_m_01 .sam_section9-box {
+        padding: 40px 80px; } }
+    @media (max-width: 799px) {
+      #samsung_m_00 #samsung_m_01 .sam_section5-box,
+      #samsung_m_00 #samsung_m_01 .sam_section6-box,
+      #samsung_m_00 #samsung_m_01 .sam_section7-box,
+      #samsung_m_00 #samsung_m_01 .sam_section8-box,
+      #samsung_m_00 #samsung_m_01 .sam_section9-box {
+        padding: 30px 50px; } }
+    @media (max-width: 479px) {
+      #samsung_m_00 #samsung_m_01 .sam_section5-box,
+      #samsung_m_00 #samsung_m_01 .sam_section6-box,
+      #samsung_m_00 #samsung_m_01 .sam_section7-box,
+      #samsung_m_00 #samsung_m_01 .sam_section8-box,
+      #samsung_m_00 #samsung_m_01 .sam_section9-box {
+        padding: 30px; } }
+    #samsung_m_00 #samsung_m_01 .sam_section5-box img,
+    #samsung_m_00 #samsung_m_01 .sam_section6-box img,
+    #samsung_m_00 #samsung_m_01 .sam_section7-box img,
+    #samsung_m_00 #samsung_m_01 .sam_section8-box img,
+    #samsung_m_00 #samsung_m_01 .sam_section9-box img {
+      margin: 0 auto;
+      display: block; }
+      @media (max-width: 1499px) {
+        #samsung_m_00 #samsung_m_01 .sam_section5-box img,
+        #samsung_m_00 #samsung_m_01 .sam_section6-box img,
+        #samsung_m_00 #samsung_m_01 .sam_section7-box img,
+        #samsung_m_00 #samsung_m_01 .sam_section8-box img,
+        #samsung_m_00 #samsung_m_01 .sam_section9-box img {
+          max-height: 280px; } }
+      @media (max-width: 1199px) {
+        #samsung_m_00 #samsung_m_01 .sam_section5-box img,
+        #samsung_m_00 #samsung_m_01 .sam_section6-box img,
+        #samsung_m_00 #samsung_m_01 .sam_section7-box img,
+        #samsung_m_00 #samsung_m_01 .sam_section8-box img,
+        #samsung_m_00 #samsung_m_01 .sam_section9-box img {
+          max-height: 185px; } }
+      @media (max-width: 959px) {
+        #samsung_m_00 #samsung_m_01 .sam_section5-box img,
+        #samsung_m_00 #samsung_m_01 .sam_section6-box img,
+        #samsung_m_00 #samsung_m_01 .sam_section7-box img,
+        #samsung_m_00 #samsung_m_01 .sam_section8-box img,
+        #samsung_m_00 #samsung_m_01 .sam_section9-box img {
+          max-height: 350px; } }
+      @media (max-width: 799px) {
+        #samsung_m_00 #samsung_m_01 .sam_section5-box img,
+        #samsung_m_00 #samsung_m_01 .sam_section6-box img,
+        #samsung_m_00 #samsung_m_01 .sam_section7-box img,
+        #samsung_m_00 #samsung_m_01 .sam_section8-box img,
+        #samsung_m_00 #samsung_m_01 .sam_section9-box img {
+          max-height: 270px; } }
+      @media (max-width: 479px) {
+        #samsung_m_00 #samsung_m_01 .sam_section5-box img,
+        #samsung_m_00 #samsung_m_01 .sam_section6-box img,
+        #samsung_m_00 #samsung_m_01 .sam_section7-box img,
+        #samsung_m_00 #samsung_m_01 .sam_section8-box img,
+        #samsung_m_00 #samsung_m_01 .sam_section9-box img {
+          max-height: 200px; } }
+  #samsung_m_00 #samsung_m_01 .sam_section5-header,
+  #samsung_m_00 #samsung_m_01 .sam_section6-header,
+  #samsung_m_00 #samsung_m_01 .sam_section7-header,
+  #samsung_m_00 #samsung_m_01 .sam_section8-header,
+  #samsung_m_00 #samsung_m_01 .sam_section9-header {
+    background-color: #f7f7f7;
+    padding: 55px 0; }
+  #samsung_m_00 #samsung_m_01 .sam_section5-heading,
+  #samsung_m_00 #samsung_m_01 .sam_section6-heading,
+  #samsung_m_00 #samsung_m_01 .sam_section7-heading,
+  #samsung_m_00 #samsung_m_01 .sam_section8-heading,
+  #samsung_m_00 #samsung_m_01 .sam_section9-heading {
+    font-family: "SamsungSharpSans-Bold";
+    font-size: 34px;
+    margin-top: 30px; }
+    @media (max-width: 1499px) {
+      #samsung_m_00 #samsung_m_01 .sam_section5-heading,
+      #samsung_m_00 #samsung_m_01 .sam_section6-heading,
+      #samsung_m_00 #samsung_m_01 .sam_section7-heading,
+      #samsung_m_00 #samsung_m_01 .sam_section8-heading,
+      #samsung_m_00 #samsung_m_01 .sam_section9-heading {
+        margin-top: 25px;
+        font-size: 26px; } }
+    @media (max-width: 1199px) {
+      #samsung_m_00 #samsung_m_01 .sam_section5-heading,
+      #samsung_m_00 #samsung_m_01 .sam_section6-heading,
+      #samsung_m_00 #samsung_m_01 .sam_section7-heading,
+      #samsung_m_00 #samsung_m_01 .sam_section8-heading,
+      #samsung_m_00 #samsung_m_01 .sam_section9-heading {
+        margin-top: 15px;
+        font-size: 22px; } }
+    @media (max-width: 959px) {
+      #samsung_m_00 #samsung_m_01 .sam_section5-heading,
+      #samsung_m_00 #samsung_m_01 .sam_section6-heading,
+      #samsung_m_00 #samsung_m_01 .sam_section7-heading,
+      #samsung_m_00 #samsung_m_01 .sam_section8-heading,
+      #samsung_m_00 #samsung_m_01 .sam_section9-heading {
+        font-size: 30px; } }
+    @media (max-width: 799px) {
+      #samsung_m_00 #samsung_m_01 .sam_section5-heading,
+      #samsung_m_00 #samsung_m_01 .sam_section6-heading,
+      #samsung_m_00 #samsung_m_01 .sam_section7-heading,
+      #samsung_m_00 #samsung_m_01 .sam_section8-heading,
+      #samsung_m_00 #samsung_m_01 .sam_section9-heading {
+        font-size: 26px; } }
+    @media (max-width: 479px) {
+      #samsung_m_00 #samsung_m_01 .sam_section5-heading,
+      #samsung_m_00 #samsung_m_01 .sam_section6-heading,
+      #samsung_m_00 #samsung_m_01 .sam_section7-heading,
+      #samsung_m_00 #samsung_m_01 .sam_section8-heading,
+      #samsung_m_00 #samsung_m_01 .sam_section9-heading {
+        font-size: 22px; } }
+  #samsung_m_00 #samsung_m_01 .sam_section5 .sam_text,
+  #samsung_m_00 #samsung_m_01 .sam_section6 .sam_text,
+  #samsung_m_00 #samsung_m_01 .sam_section7 .sam_text,
+  #samsung_m_00 #samsung_m_01 .sam_section8 .sam_text,
+  #samsung_m_00 #samsung_m_01 .sam_section9 .sam_text {
+    margin-top: 20px; }
+    @media (max-width: 1199px) {
+      #samsung_m_00 #samsung_m_01 .sam_section5 .sam_text,
+      #samsung_m_00 #samsung_m_01 .sam_section6 .sam_text,
+      #samsung_m_00 #samsung_m_01 .sam_section7 .sam_text,
+      #samsung_m_00 #samsung_m_01 .sam_section8 .sam_text,
+      #samsung_m_00 #samsung_m_01 .sam_section9 .sam_text {
+        font-size: 16px; } }
+    @media (max-width: 959px) {
+      #samsung_m_00 #samsung_m_01 .sam_section5 .sam_text,
+      #samsung_m_00 #samsung_m_01 .sam_section6 .sam_text,
+      #samsung_m_00 #samsung_m_01 .sam_section7 .sam_text,
+      #samsung_m_00 #samsung_m_01 .sam_section8 .sam_text,
+      #samsung_m_00 #samsung_m_01 .sam_section9 .sam_text {
+        font-size: 18px; } }
+    @media (max-width: 799px) {
+      #samsung_m_00 #samsung_m_01 .sam_section5 .sam_text,
+      #samsung_m_00 #samsung_m_01 .sam_section6 .sam_text,
+      #samsung_m_00 #samsung_m_01 .sam_section7 .sam_text,
+      #samsung_m_00 #samsung_m_01 .sam_section8 .sam_text,
+      #samsung_m_00 #samsung_m_01 .sam_section9 .sam_text {
+        font-size: 16px; } }
+  @media (max-width: 959px) {
+    #samsung_m_00 #samsung_m_01 .sam_section5 .order,
+    #samsung_m_00 #samsung_m_01 .sam_section6 .order,
+    #samsung_m_00 #samsung_m_01 .sam_section7 .order,
+    #samsung_m_00 #samsung_m_01 .sam_section8 .order,
+    #samsung_m_00 #samsung_m_01 .sam_section9 .order {
+      order: 1; } }
+  #samsung_m_00 #samsung_m_01 .sam_section7-slider--img,
+  #samsung_m_00 #samsung_m_01 .sam_section8-slider--img,
+  #samsung_m_00 #samsung_m_01 .sam_section9-slider--img {
+    padding: 10px 0; }
+    @media (max-width: 1499px) {
+      #samsung_m_00 #samsung_m_01 .sam_section7-slider--img,
+      #samsung_m_00 #samsung_m_01 .sam_section8-slider--img,
+      #samsung_m_00 #samsung_m_01 .sam_section9-slider--img {
+        padding: 20px 20px 0; } }
+    @media (max-width: 1199px) {
+      #samsung_m_00 #samsung_m_01 .sam_section7-slider--img,
+      #samsung_m_00 #samsung_m_01 .sam_section8-slider--img,
+      #samsung_m_00 #samsung_m_01 .sam_section9-slider--img {
+        padding: 30px 20px 0; } }
+    #samsung_m_00 #samsung_m_01 .sam_section7-slider--img img,
+    #samsung_m_00 #samsung_m_01 .sam_section8-slider--img img,
+    #samsung_m_00 #samsung_m_01 .sam_section9-slider--img img {
+      max-width: 50%; }
+      @media (max-width: 1499px) {
+        #samsung_m_00 #samsung_m_01 .sam_section7-slider--img img,
+        #samsung_m_00 #samsung_m_01 .sam_section8-slider--img img,
+        #samsung_m_00 #samsung_m_01 .sam_section9-slider--img img {
+          max-height: 240px; } }
+      @media (max-width: 1199px) {
+        #samsung_m_00 #samsung_m_01 .sam_section7-slider--img img,
+        #samsung_m_00 #samsung_m_01 .sam_section8-slider--img img,
+        #samsung_m_00 #samsung_m_01 .sam_section9-slider--img img {
+          max-height: 175px; } }
+  #samsung_m_00 #samsung_m_01 .sam_section7-heading,
+  #samsung_m_00 #samsung_m_01 .sam_section8-heading,
+  #samsung_m_00 #samsung_m_01 .sam_section9-heading {
+    margin-top: 0; }
+  @media (max-width: 1199px) {
+    #samsung_m_00 #samsung_m_01 .sam_section7-box,
+    #samsung_m_00 #samsung_m_01 .sam_section8-box,
+    #samsung_m_00 #samsung_m_01 .sam_section9-box {
+      padding: 10px 20px 10px; } }
+  #samsung_m_00 #samsung_m_01 .sam_no-padding-right {
+    padding-right: 0; }
+    @media (max-width: 959px) {
+      #samsung_m_00 #samsung_m_01 .sam_no-padding-right {
+        padding-right: 15px; } }
+  #samsung_m_00 #samsung_m_01 .sam_no-padding-left {
+    padding-left: 0; }
+    @media (max-width: 959px) {
+      #samsung_m_00 #samsung_m_01 .sam_no-padding-left {
+        padding-left: 15px; } }
+  #samsung_m_00 #samsung_m_01 .slick-slide {
+    outline: 0;
+    text-align: center;
+    text-align: -webkit-center; }
+  #samsung_m_00 #samsung_m_01 img {
+    margin: 0 auto; }
+  #samsung_m_00 #samsung_m_01 .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 0;
+    font-size: 0;
+    height: 50px;
+    width: 30px;
+    background: none;
+    cursor: pointer;
+    outline: 0;
+    z-index: 10; }
+    #samsung_m_00 #samsung_m_01 .slick-arrow::before {
+      content: "";
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 100%;
+      display: block;
+      height: 100%; }
+  #samsung_m_00 #samsung_m_01 .slick-prev {
+    left: 30px; }
+    @media (max-width: 799px) {
+      #samsung_m_00 #samsung_m_01 .slick-prev {
+        left: 10px; } }
+    #samsung_m_00 #samsung_m_01 .slick-prev::before {
+      background-image: url(../img/sam_arrow-left.png); }
+  #samsung_m_00 #samsung_m_01 .slick-next {
+    right: 30px; }
+    @media (max-width: 799px) {
+      #samsung_m_00 #samsung_m_01 .slick-next {
+        right: 10px; } }
+    #samsung_m_00 #samsung_m_01 .slick-next::before {
+      background-image: url(../img/sam_arrow-right.png); }
+  #samsung_m_00 #samsung_m_01 .slick-dots {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 30px; }
+    @media (max-width: 799px) {
+      #samsung_m_00 #samsung_m_01 .slick-dots {
+        margin-top: 20px; } }
+    #samsung_m_00 #samsung_m_01 .slick-dots li {
+      position: relative;
+      margin: 0 5px;
+      width: 40px; }
+      @media (max-width: 1199px) {
+        #samsung_m_00 #samsung_m_01 .slick-dots li {
+          width: 30px; } }
+      @media (max-width: 959px) {
+        #samsung_m_00 #samsung_m_01 .slick-dots li {
+          width: 40px; } }
+      @media (max-width: 799px) {
+        #samsung_m_00 #samsung_m_01 .slick-dots li {
+          width: 30px; } }
+      #samsung_m_00 #samsung_m_01 .slick-dots li:focus {
+        outline: none; }
+      #samsung_m_00 #samsung_m_01 .slick-dots li button {
+        border: none;
+        background: none;
+        font-size: 0;
+        cursor: pointer;
+        height: 35px;
+        width: 35px;
+        border-radius: 100%;
+        background-color: #000;
+        position: relative; }
+        @media (max-width: 1199px) {
+          #samsung_m_00 #samsung_m_01 .slick-dots li button {
+            height: 25px;
+            width: 25px; } }
+        @media (max-width: 959px) {
+          #samsung_m_00 #samsung_m_01 .slick-dots li button {
+            height: 35px;
+            width: 35px; } }
+        @media (max-width: 799px) {
+          #samsung_m_00 #samsung_m_01 .slick-dots li button {
+            height: 25px;
+            width: 25px; } }
+      #samsung_m_00 #samsung_m_01 .slick-dots li:nth-of-type(2) button {
+        background-color: #036423; }
+      #samsung_m_00 #samsung_m_01 .slick-dots li:nth-of-type(3) button {
+        background-color: #3355e7; }
+      #samsung_m_00 #samsung_m_01 .slick-dots li:nth-of-type(4) button {
+        background-color: #f010a4; }
+      #samsung_m_00 #samsung_m_01 .slick-dots li.slick-active button::after {
+        content: "";
+        position: absolute;
+        background-image: url(../img/sam_checkmark.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        width: 15px;
+        height: 10px; }
+        @media (max-width: 1199px) {
+          #samsung_m_00 #samsung_m_01 .slick-dots li.slick-active button::after {
+            width: 12px;
+            height: 9px; } }
+        @media (max-width: 959px) {
+          #samsung_m_00 #samsung_m_01 .slick-dots li.slick-active button::after {
+            width: 15px;
+            height: 10px; } }
+        @media (max-width: 799px) {
+          #samsung_m_00 #samsung_m_01 .slick-dots li.slick-active button::after {
+            width: 12px;
+            height: 9px; } }

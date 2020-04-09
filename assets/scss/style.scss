@@ -1,0 +1,987 @@
+@import "_variables";
+@import "_fonts";
+
+#samsung_m_00 #samsung_m_01 {
+  background: #fff;
+  font-family: $default_font_family;
+}
+
+#samsung_m_00 #samsung_m_01 {
+  @import "_bootstrap-flex";
+  @import "_common";
+
+  img {
+    max-width: 100%;
+  }
+
+  .sam_effect {
+    opacity: 0;
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+    -webkit-transition: all .5s cubic-bezier(0, 0, 0.58, 1);
+    transition: all .5s cubic-bezier(0, 0, 0.58, 1);
+
+    h3 {
+      opacity: 0;
+      -webkit-transform: translateY(50px);
+      transform: translateY(50px);
+      -webkit-transition: all .5s cubic-bezier(0, 0, 0.58, 1);
+      transition: all .5s cubic-bezier(0, 0, 0.58, 1);
+    }
+
+    img {
+      opacity: 0;
+      -webkit-transform: translateY(50px);
+      transform: translateY(50px);
+      -webkit-transition: all 0.6s cubic-bezier(0, 0, 0.58, 1);
+      transition: all 0.6s cubic-bezier(0, 0, 0.58, 1);
+    }
+  }
+
+  .sam_effect_active {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: all .5s cubic-bezier(0, 0, 0.58, 1);
+    transition: all .5s cubic-bezier(0, 0, 0.58, 1);
+
+    h3 {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      -webkit-transition: all .5s cubic-bezier(0, 0, 0.58, 1);
+      transition: all .5s cubic-bezier(0, 0, 0.58, 1);
+    }
+
+    img {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      -webkit-transition: all 0.6s cubic-bezier(0, 0, 0.58, 1);
+      transition: all 0.6s cubic-bezier(0, 0, 0.58, 1);
+    }
+  }
+
+  .#{$prefix}container {
+    max-width: $max-container-width;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+  }
+
+  .#{$prefix}btn {
+    background: none;
+    line-height: 28px;
+    padding-top: 14px;
+    padding-bottom: 13px;
+    border-radius: 44px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'SamsungOne-700';
+    font-size: 14px;
+    border: 1px solid #fff;
+    letter-spacing: 2.8px;
+    -webkit-transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+    transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+    text-align: center;
+    background: transparent;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 230px;
+
+    &:hover {
+      color: #000;
+      text-decoration: none;
+      background: #fff;
+      -webkit-transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+      transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+    }
+
+    @include xlg {
+      font-size: 12px;
+      width: 200px;
+      padding-top: 10px;
+      padding-bottom: 9px;
+    }
+
+    @include lg {
+      display: block;
+      width: 60%;
+      margin: 10px auto;
+      font-size: 14px;
+      padding-top: 13px;
+      padding-bottom: 12px;
+    }
+
+    @include md {
+      width: 80%;
+    }
+
+    &--white {
+      background: #fff;
+      color: #000;
+
+      &:hover {
+        color: #fff;
+        background: #000;
+        border: 1px solid #fff;
+      }
+    }
+  }
+
+  .#{$prefix}heading {
+    font-size: 44px;
+    color: #000;
+    font-family: 'SamsungSharpSans-Bold';
+    padding: 0 20px;
+
+
+    @include xxlg {
+      font-size: 40px;
+    }
+
+    @include xlg {
+      font-size: 38px;
+    }
+
+    @include lg {
+      font-size: 34px;
+    }
+
+    @include sm {
+      font-size: 30px;
+      padding: 10px;
+    }
+  }
+
+  .#{$prefix}text {
+    font-size: 18px;
+    color: #000;
+    font-family: "SamsungOne-400";
+    padding: 0 20px;
+
+    span {
+      font-family: "SamsungSharpSans-Bold";
+    }
+
+    @include md {
+      font-size: 16px;
+    }
+
+    @include sm {
+      padding: 0 10px;
+    }
+  }
+
+  .#{$prefix}kv {
+    position: relative;
+
+    &-logo {
+      position: absolute;
+      top: 40px;
+      left: 40px;
+      z-index: 2;
+      @include xxlg {
+        top: 30px;
+      }
+      @include xlg {
+        top: 20px;
+      }
+
+      @include lg {
+        top: 30px;
+      }
+
+      @include sm {
+        width: 150px;
+        left: 30px;
+        top: 25px;
+
+      }
+    }
+    &-logo2 {
+      display: none;
+      @include lg {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 40px;
+        z-index: 2;
+        max-width: 150px;
+        @include md {
+          width: 130px;
+        }
+        @include sm {
+          width: 95px;
+          right: 30px;
+          top: 15px;
+        }
+      }
+    }
+
+    &-title {
+      position: relative;
+
+      &-img {
+        max-width: 100%;
+      }
+    }
+
+    &-box {
+      background: #000;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      img {
+        object-fit: cover;
+      }
+
+      &-logo {
+        position: absolute;
+        top: 20px;
+        right: 40px;
+        z-index: 2;
+        @include xxlg {
+          max-width: 150px;
+        }
+        @include xlg {
+          max-width: 100px;
+        }
+        @include lg {
+          display: none;
+        }
+      }
+
+      @include lg {
+        height: 100%;
+      }
+    }
+
+    &-info {
+      flex: 0 0 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 10px 20px;
+      max-width: 560px;
+
+      @include lg {
+        max-width: 100%;
+        order: -1;
+        padding: 30px 20px;
+      }
+    }
+
+    &-heading {
+      color: #fff;
+      text-transform: uppercase;
+      font-family: "SamsungOne-400";
+      text-align: center;
+      margin-bottom: 40px;
+      letter-spacing: 4px;
+
+      span {
+        font-family: "SamsungSharpSans-Bold";
+        letter-spacing: .5px;
+      }
+
+      @include xxlg {
+        margin-bottom: 30px;
+      }
+
+      @include xxlg {
+        font-size: 30px;
+      }
+
+      @include lg {
+        margin-bottom: 20px;
+        font-size: 40px;
+      }
+
+      @include md {
+        margin-bottom: 20px;
+        font-size: 36px;
+      }
+
+      @include sm {
+        font-size: 30px;
+      }
+    }
+
+    &-btns {
+      width: 100%;
+
+      .sam_btn--white {
+        margin-left: 10px;
+
+        @include lg {
+          margin-left: auto;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+
+  .#{$prefix}section1 {
+    background-color: #fff;
+    padding: 100px 50px;
+
+    @include xxlg {
+      padding: 70px 50px;
+    }
+
+    @include md {
+      padding: 50px 20px;
+    }
+
+    @include sm {
+      padding: 40px 10px;
+    }
+
+    &--wrapper {
+      max-width: 1490px;
+      margin: 0 auto;
+      display: block;
+    }
+
+    &--text {
+      font-size: 18px;
+      color: #000;
+
+      @include xlg {
+        font-size: 16px;
+      }
+    }
+
+    &--img {
+      min-height: 180px;
+      margin-bottom: 45px;
+      position: relative;
+      @include md {
+        margin-bottom: 25px;
+      }
+      img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 180px;
+        max-height: 180px;
+
+        @include lg {
+          max-width: 200px;
+          max-height: 200px;
+        }
+      }
+    }
+
+    &--box {
+      margin-top: 80px;
+      padding: 25px;
+      text-align: center;
+      border-right: 1px solid #dadada;
+
+      @include xxlg {
+        margin-top: 45px;
+        flex-grow: 0;
+        border-right: none;
+      }
+
+      @include md {
+        margin-top: 20px;
+      }
+
+      @include md {
+        padding: 10px 50px;
+      }
+
+      h3 {
+        font-size: 22px;
+        font-family: "SamsungSharpSans-Bold";
+      }
+    }
+
+    &--box:last-of-type {
+      border-right: none;
+    }
+
+    &--circles {
+      padding: 40px 0 50px;
+
+      @include md {
+        padding: 20px 0 25px;
+      }
+    }
+
+    &--circle {
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      display: inline-block;
+      cursor: pointer;
+      @include lg {
+        width: 25px;
+        height: 25px;
+        margin: 0 4px;
+      }
+      @include sm {
+        width: 22px;
+        height: 22px;
+        margin: 0 2px;
+
+      }
+
+      &_black {
+        background: #000;
+      }
+
+      &_green {
+        background: #036423;
+      }
+
+      &_blue {
+        background: #3355e7;
+      }
+
+      &_pink {
+        background: #f010a4;
+      }
+
+      &_gray {
+        background: #dbdbdb;
+      }
+    }
+
+    &_btn {
+      border: 1px solid #000;
+      color: #000;
+
+      @include md {
+        padding-top: 11px;
+        padding-bottom: 10px;
+      }
+
+      &:hover {
+        color: #fff;
+        background: #000;
+      }
+    }
+    .slick-next {
+      right: -25px;
+      @include lg {
+        right: 10px;
+      }
+    }
+    .slick-prev {
+      left: -25px;
+      @include lg {
+        left: 10px;
+      }
+    }
+    .slick-disabled {
+      opacity: .1;
+    }
+    .slick-arrow {
+      @include sm {
+        height: 30px;
+        width: 25px;
+      }
+    }
+  }
+
+  .#{$prefix}section2 {
+    background-image: url(../img/s2-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 1000px;
+    padding-top: 130px;
+    position: relative;
+
+    @include xxxlg {
+      padding-top: 90px;
+      height: 55vw;
+    }
+    @include xxlg {
+      padding-top: 30px;
+    }
+    @include xlg {
+      background-image: none;
+      background-color: #c1c2cd;
+      height: auto;
+    }
+    @include md {
+      padding-top: 50px;
+    }
+    @include sm {
+      padding-top: 40px;
+    }
+
+    &--photo {
+      position: absolute;
+      bottom: 0;
+      @include xlg {
+        position: static;
+      }
+    }
+
+    &--wrapper {
+      max-width: 770px;
+      margin: 0 auto;
+      display: block;
+    }
+
+    &-img {
+      margin-bottom: 20px;
+      max-width: 100%;
+    }
+
+    &-text {
+      line-height: 1.7;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
+
+  .#{$prefix}section3 {
+    padding: 120px 50px;
+    @include xxxlg {
+      padding: 80px 50px;
+    }
+
+    @include xlg {
+      padding: 70px 30px;
+    }
+
+    @include md {
+      padding: 50px 20px;
+    }
+
+    @include sm {
+      padding: 40px 10px;
+    }
+
+    &--wrapper {
+      max-width: 1490px;
+      margin: 0 auto;
+      display: block;
+    }
+
+    &-box {
+      margin-top: 90px;
+      text-align: center;
+      @include xlg {
+        margin-top: 60px;
+      }
+
+      @include md {
+        margin-top: 45px;
+      }
+
+      &-heading {
+        font-size: 22px;
+        font-family: "SamsungSharpSans-Bold";
+        margin: 25px 0;
+        @include md {
+          font-size: 18px;
+        }
+      }
+
+      img {
+        @include xlg {
+          max-width: 140px;
+        }
+        @include lg {
+          max-width: 120px;
+        }
+      }
+    }
+  }
+
+  .#{$prefix}section5,
+  .#{$prefix}section6 {
+    .circle {
+      height: 35px;
+      width: 35px;
+      border-radius: 100%;
+      background-color: #000;
+      position: relative;
+      margin: 10px auto 0;
+      @include xlg {
+        height: 25px;
+        width: 25px;
+      }
+      @include lg {
+        height: 35px;
+        width: 35px;
+      }
+      @include md {
+        height: 25px;
+        width: 25px;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        background-image: url(../img/sam_checkmark.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        width: 15px;
+        height: 10px;
+        @include xlg {
+          height: 12px;
+          width: 9px;
+        }
+        @include lg {
+          height: 15px;
+          width: 10px;
+        }
+        @include md {
+          height: 12px;
+          width: 9px;
+        }
+      }
+
+      &-grey {
+        background-color: #dbdbdb;
+      }
+    }
+    &-disclaimer {
+      margin-top: 40px;
+      margin-bottom: 0;
+      font-size: 12px;
+      @include xlg {
+        margin-top: 15px;
+      }
+      @include lg {
+        margin-top: 30px;
+      }
+    }
+  }
+
+  .#{$prefix}section5,
+  .#{$prefix}section6,
+  .#{$prefix}section7,
+  .#{$prefix}section8,
+  .#{$prefix}section9 {
+    &-box {
+      text-align: center;
+      padding: 30px 40px 0;
+
+      @include xxlg {
+        padding: 20px;
+      }
+
+      @include xlg {
+        padding: 30px 20px;
+      }
+
+      @include lg {
+        padding: 40px 80px;
+      }
+
+      @include md {
+        padding: 30px 50px;
+      }
+
+      @include sm {
+        padding: 30px;
+      }
+
+      img {
+        margin: 0 auto;
+        display: block;
+
+        @include xxlg {
+          max-height: 280px;
+        }
+        @include xlg {
+          max-height: 185px;
+        }
+
+        @include lg {
+          max-height: 350px;
+        }
+
+        @include md {
+          max-height: 270px;
+        }
+
+        @include sm {
+          max-height: 200px;
+        }
+      }
+    }
+
+    &-header {
+      background-color: #f7f7f7;
+      padding: 55px 0;
+    }
+
+    &-heading {
+      font-family: "SamsungSharpSans-Bold";
+      font-size: 34px;
+      margin-top: 30px;
+
+      @include xxlg {
+        margin-top: 25px;
+        font-size: 26px;
+      }
+
+      @include xlg {
+        margin-top: 15px;
+        font-size: 22px;
+      }
+
+      @include lg {
+        font-size: 30px;
+      }
+
+      @include md {
+        font-size: 26px;
+      }
+
+
+      @include sm {
+        font-size: 22px;
+      }
+    }
+
+    .sam_text {
+      margin-top: 20px;
+      @include xlg {
+        font-size: 16px;
+      }
+      @include lg {
+        font-size: 18px;
+      }
+      @include md {
+        font-size: 16px;
+      }
+    }
+
+    .order {
+      @include lg {
+        order: 1;
+      }
+    }
+  }
+
+  .#{$prefix}section7,
+  .#{$prefix}section8,
+  .#{$prefix}section9 {
+    &-slider {
+      &--img {
+        padding: 10px 0;
+
+        @include xxlg {
+          padding: 20px 20px 0;
+        }
+        @include xlg {
+          padding: 30px 20px 0;
+        }
+
+        img {
+          max-width: 50%;
+
+          @include xxlg {
+            max-height: 240px;
+          }
+          @include xlg {
+            max-height: 175px;
+          }
+        }
+      }
+    }
+    &-heading {
+      margin-top: 0;
+    }
+    &-box {
+      @include xlg {
+        padding: 10px 20px 10px;
+      }
+    }
+  }
+
+  .#{$prefix}no-padding-right {
+    padding-right: 0;
+
+    @include lg {
+      padding-right: 15px;
+    }
+  }
+
+  .#{$prefix}no-padding-left {
+    padding-left: 0;
+
+    @include lg {
+      padding-left: 15px;
+    }
+  }
+
+  /* slick */
+  .slick-slide {
+    outline: 0;
+    text-align: center;
+    text-align: -webkit-center;
+  }
+
+  img {
+    margin: 0 auto;
+  }
+
+  .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 0;
+    font-size: 0;
+    height: 50px;
+    width: 30px;
+    background: none;
+    cursor: pointer;
+    outline: 0;
+    z-index: 10;
+
+    &::before {
+      content: "";
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 100%;
+      display: block;
+      height: 100%;
+    }
+  }
+
+  .slick-prev {
+    left: 30px;
+
+    @include md {
+      left: 10px;
+    }
+
+    &::before {
+      background-image: url(../img/sam_arrow-left.png);
+    }
+  }
+
+  .slick-next {
+    right: 30px;
+
+    @include md {
+      right: 10px;
+    }
+
+    &::before {
+      background-image: url(../img/sam_arrow-right.png);
+    }
+  }
+
+  .slick-dots {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+
+    @include md {
+      margin-top: 20px;
+    }
+
+    li {
+      position: relative;
+      margin: 0 5px;
+      width: 40px;
+      @include xlg {
+        width: 30px;
+      }
+      @include lg {
+        width: 40px;
+      }
+      @include md {
+        width: 30px;
+      }
+
+      &:focus {
+        outline: none;
+      }
+
+      button {
+        border: none;
+        background: none;
+        font-size: 0;
+        cursor: pointer;
+        height: 35px;
+        width: 35px;
+        border-radius: 100%;
+        background-color: #000;
+        position: relative;
+        @include xlg {
+          height: 25px;
+          width: 25px;
+        }
+        @include lg {
+          height: 35px;
+          width: 35px;
+        }
+        @include md {
+          height: 25px;
+          width: 25px;
+        }
+      }
+
+      &:nth-of-type(2) {
+        button {
+          background-color: #036423;
+        }
+      }
+
+      &:nth-of-type(3) {
+        button {
+          background-color: #3355e7;
+        }
+      }
+
+      &:nth-of-type(4) {
+        button {
+          background-color: #f010a4;
+        }
+      }
+
+      &.slick-active {
+        button::after {
+          content: "";
+          position: absolute;
+          background-image: url(../img/sam_checkmark.png);
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
+          transform: translate(-50%, -50%);
+          top: 50%;
+          left: 50%;
+          width: 15px;
+          height: 10px;
+          @include xlg {
+            width: 12px;
+            height: 9px;
+          }
+          @include lg {
+            width: 15px;
+            height: 10px;
+          }
+          @include md {
+            width: 12px;
+            height: 9px;
+          }
+        }
+      }
+    }
+  }
+}
